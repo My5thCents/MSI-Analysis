@@ -63,7 +63,7 @@ champExpectedWins = OrderedDict()
 for i in champs_picked:
     champExpectedWins[i] = 0
 for index, row in picks.iterrows():
-    champExpectedWins[row["Champion"]] += teamWinRate[row["Team"]] / (teamWinRate[row["Team"]] + teamWinRate[row["TeamVS"]])
+    champExpectedWins[row["Champion"]] += (teamWinRate[row["Team"]]*(1-teamWinRate[row["TeamVS"]])) / ((teamWinRate[row["Team"]]*(1-teamWinRate[row["TeamVS"]]) + teamWinRate[row["TeamVS"]]*(1-teamWinRate[row["TeamVS"]]))+0.0000001)
 champExpectedWins5Games = OrderedDict()
 for i in champWinRate5Games.keys():
     champExpectedWins5Games[i] = champExpectedWins[i]
@@ -107,14 +107,14 @@ ax = df.plot.bar(yerr=CIpicked5List)
 ax.set_title("Win Rate - Expected Win Rate")
 ax.get_legend().remove()
 x_offset = -0.3
-y_offset = 0.2
+y_offset = 0.3
 for p in ax.patches:
     b = p.get_bbox()
     val = "{:+.2f}".format(b.y1 + b.y0)
     if float(val) > 0:
         ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 + y_offset), fontsize=8)
     if float(val) < 0:
-        ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 - 5*y_offset), fontsize=8)
+        ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 - 6*y_offset), fontsize=8)
 
 plt.show(block=True)
 
@@ -183,3 +183,4 @@ for p in ax.patches:
     if float(val) < 0:
         ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 - 5*y_offset), fontsize=8)
 plt.show()
+print(sum(champAdjustedWinRateList)/len(expectedWinsMinusActual.keys()))
