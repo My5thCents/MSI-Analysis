@@ -4,7 +4,12 @@ import matplotlib.pyplot as plt
 from collections import OrderedDict
 import math as math
 
-champions = pd.read_csv("ChampionsPicked.csv")
+championsGroup = pd.read_csv("ChampionsPicked.csv")
+championsRumble = pd.read_csv("ChampionsPickedRumbleStage.csv")
+# frames = [championsGroup, championsRumble]
+# champions = pd.concat(frames)
+champions = championsRumble
+
 picks = champions[champions["Pick/Ban"] == "Pick"]
 bans = champions[(champions["Pick/Ban"] == "Ban") & (champions["Champion"] != "None")]
 
@@ -16,6 +21,8 @@ champs_banned = sorted(bans.Champion.unique())
 champs_total = sorted(champions.Champion.unique())
 # get a list of all teams
 teams = sorted(picks.Team.unique())
+
+print(champs_total)
 
 teamWinLoss = OrderedDict()
 for i in teams:
