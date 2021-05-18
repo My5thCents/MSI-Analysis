@@ -6,9 +6,8 @@ import math as math
 
 championsGroup = pd.read_csv("ChampionsPicked.csv")
 championsRumble = pd.read_csv("ChampionsPickedRumbleStage.csv")
-# frames = [championsGroup, championsRumble]
-# champions = pd.concat(frames)
-champions = championsRumble
+frames = [championsGroup, championsRumble]
+champions = pd.concat(frames)
 
 picks = champions[champions["Pick/Ban"] == "Pick"]
 bans = champions[(champions["Pick/Ban"] == "Ban") & (champions["Champion"] != "None")]

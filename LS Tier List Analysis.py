@@ -204,7 +204,6 @@ championsGroup = pd.read_csv("ChampionsPicked.csv")
 championsRumble = pd.read_csv("ChampionsPickedRumbleStage.csv")
 frames = [championsGroup, championsRumble]
 champions = pd.concat(frames)
-champions = pd.read_csv("ChampionsPicked.csv")
 released = pd.read_csv("ChampionReleaseDate.csv")
 picks = champions[champions["Pick/Ban"] == "Pick"]
 bans = champions[(champions["Pick/Ban"] == "Ban") & (champions["Champion"] != "None")]
@@ -300,6 +299,12 @@ for index, row in support.iterrows():
             supportWinLoss[LSSupport[row["Champion"]]][0] += 1
         else:
             supportWinLoss[LSSupport[row["Champion"]]][0] += 1
+
+print(topWinLoss)
+print(jungleWinLoss)
+print(midWinLoss)
+print(adcWinLoss)
+print(supportWinLoss)
 
 # find the total win loss of all tiers in LS tier list
 totalWinLoss = OrderedDict()
@@ -481,4 +486,30 @@ for p in ax.patches:
     b = p.get_bbox()
     val = "{:.2f}".format(b.y1 + b.y0)
     ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 + y_offset), fontsize=8)
+plt.show()
+
+CI = OrderedDict()
+for i in totalWinLoss.keys():
+    CI[i] = 1.96*math.sqrt(0.5*0.5/sum(totalWinLoss[i]))
+
+CIList = []
+for i in CI.keys():
+    CIList.append(CI[i])
+
+print(CI)
+# Plot total win rates with confidence intervals
+df = pd.DataFrame({
+    "Jungle Win Rates": list(totalWinRatio.values())},
+    index=[tiers[x] + "\nPicks: " + str(sum(totalWinLoss[tiers[x]])) for x in range(len(tiers))]
+)
+ax = df.plot.bar(yerr=CIList, ylim=(0, 1.0))
+ax.set_title("Win Rates of each tier in total for LS and Nemesis Tier List with confidence interval")
+ax.get_legend().remove()
+x_offset = -0.05
+y_offset = 0.01
+for p in ax.patches:
+    b = p.get_bbox()
+    val = "{:.2f}".format(b.y1 + b.y0)
+    ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 + y_offset), fontsize=8)
+plt.axhline(y=0.5, color='r', linestyle='-')
 plt.show()

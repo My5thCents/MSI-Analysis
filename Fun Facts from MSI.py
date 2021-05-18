@@ -11,9 +11,10 @@ champions = pd.concat(frames)
 released = pd.read_csv("ChampionReleaseDate.csv")
 picks = champions[champions["Pick/Ban"] == "Pick"]
 picks = picks.reset_index(drop=True)
-picks = picks.drop(picks.index[range(590, 610)])
+picks = picks.drop(picks.index[range(650, 670)])
 bans = champions[(champions["Pick/Ban"] == "Ban") & (champions["Champion"] != "None")]
 allRunes = pd.read_csv("ChampionRunes.csv")
+allRunes = allRunes.drop(allRunes.index[range(650, 653)])
 
 # get a list of all champs picked
 champs_picked = sorted(picks.Champion.unique())
@@ -32,6 +33,8 @@ uniqueRunes5 = sorted(allRunes.Rune5Reverse.unique())
 uniqueRunesAll = sorted(list(set(uniqueRunes1) | set(uniqueRunes2) | set(uniqueRunes3) | set(uniqueRunes4) | set(uniqueRunes5)))
 # get a list of all keystones which have been taken
 keystones = sorted(allRunes.KeystoneReverse.unique())
+
+print(champs_picked)
 
 # track each champions win/loss
 champWinLoss = OrderedDict()
@@ -261,6 +264,8 @@ picks["Rune2"] = allRunes["Rune2Reverse"]
 picks["Rune3"] = allRunes["Rune3Reverse"]
 picks["Rune4"] = allRunes["Rune4Reverse"]
 picks["Rune5"] = allRunes["Rune5Reverse"]
+
+print(picks)
 
 runeWinLoss = OrderedDict()
 for i in uniqueRunesAll:
