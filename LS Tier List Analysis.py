@@ -513,3 +513,24 @@ for p in ax.patches:
     ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 + y_offset), fontsize=8)
 plt.axhline(y=0.5, color='r', linestyle='-')
 plt.show()
+
+for i in LSTop.keys():
+    if LSTop[i] == "Not in list":
+        print(i)
+for i in LSJungle.keys():
+    if LSJungle[i] == "Not in list":
+        print(i)
+for i in LSMid.keys():
+    if LSMid[i] == "Not in list":
+        print(i)
+for i in LSBot.keys():
+    if LSBot[i] == "Not in list":
+        print(i)
+for i in LSSupport.keys():
+    if LSSupport[i] == "Not in list":
+        print(i)
+# print(LSTop["Not in list"])
+# print(LSJungle["Not in list"])
+# print(LSMid["Not in list"])
+# print(LSBot["Not in list"])
+# print(LSSupport["Not in list"])

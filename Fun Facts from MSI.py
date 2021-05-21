@@ -6,15 +6,16 @@ import math as math
 
 championsGroup = pd.read_csv("ChampionsPicked.csv")
 championsRumble = pd.read_csv("ChampionsPickedRumbleStage.csv")
-frames = [championsGroup, championsRumble]
+frames = [championsRumble, championsGroup]
 champions = pd.concat(frames)
 released = pd.read_csv("ChampionReleaseDate.csv")
 picks = champions[champions["Pick/Ban"] == "Pick"]
 picks = picks.reset_index(drop=True)
-picks = picks.drop(picks.index[range(650, 670)])
+# picks = picks.drop(picks.index[range(650, 670)])
 bans = champions[(champions["Pick/Ban"] == "Ban") & (champions["Champion"] != "None")]
 allRunes = pd.read_csv("ChampionRunes.csv")
-allRunes = allRunes.drop(allRunes.index[range(650, 653)])
+# allRunes = allRunes.drop(allRunes.index[range(650, 651)])
+
 
 # get a list of all champs picked
 champs_picked = sorted(picks.Champion.unique())
@@ -34,7 +35,7 @@ uniqueRunesAll = sorted(list(set(uniqueRunes1) | set(uniqueRunes2) | set(uniqueR
 # get a list of all keystones which have been taken
 keystones = sorted(allRunes.KeystoneReverse.unique())
 
-print(champs_picked)
+# print(champs_picked)
 
 # track each champions win/loss
 champWinLoss = OrderedDict()
@@ -249,10 +250,10 @@ df = pd.DataFrame({
     "Total Picks per rune": list(totalRunesPercent.values())},
     index=uniqueRunesAll
 )
-ax = df.plot.bar(title="Total Picks Per Rune")
+ax = df.plot.bar(title="Total Picks Percent of each Rune")
 ax.get_legend().remove()
 x_offset = -0.1
-y_offset = 0.02
+y_offset = 0.002
 for p in ax.patches:
     b = p.get_bbox()
     val = "{:.2f}".format(b.y1 + b.y0)
@@ -265,24 +266,24 @@ picks["Rune3"] = allRunes["Rune3Reverse"]
 picks["Rune4"] = allRunes["Rune4Reverse"]
 picks["Rune5"] = allRunes["Rune5Reverse"]
 
-print(picks)
+# print(picks)
 
 runeWinLoss = OrderedDict()
 for i in uniqueRunesAll:
     runeWinLoss[i] = [0, 0]
 for index, row in picks.iterrows():
     if row["GameResult"] == "Win":
-        runeWinLoss[row["Rune1"]][0] += 1
-        runeWinLoss[row["Rune2"]][0] += 1
-        runeWinLoss[row["Rune3"]][0] += 1
-        runeWinLoss[row["Rune4"]][0] += 1
-        runeWinLoss[row["Rune5"]][0] += 1
-    else:
         runeWinLoss[row["Rune1"]][1] += 1
         runeWinLoss[row["Rune2"]][1] += 1
         runeWinLoss[row["Rune3"]][1] += 1
         runeWinLoss[row["Rune4"]][1] += 1
         runeWinLoss[row["Rune5"]][1] += 1
+    else:
+        runeWinLoss[row["Rune1"]][0] += 1
+        runeWinLoss[row["Rune2"]][0] += 1
+        runeWinLoss[row["Rune3"]][0] += 1
+        runeWinLoss[row["Rune4"]][0] += 1
+        runeWinLoss[row["Rune5"]][0] += 1
 
 runeWinPercent = OrderedDict()
 for i in uniqueRunesAll:
@@ -309,7 +310,7 @@ for i in runeWinLoss.keys():
     if sum(runeWinLoss[i]) > 10:
         runeWinPercent10Games[i] = runeWinPercent[i]
 
-print(runeWinLoss)
+# print(runeWinLoss)
 
 
 df = pd.DataFrame({
@@ -333,9 +334,9 @@ for i in keystones:
     keystoneWinLoss[i] = [0, 0]
 for index, row in picks.iterrows():
     if row["GameResult"] == "Win":
-        keystoneWinLoss[row["Keystone"]][0] += 1
-    else:
         keystoneWinLoss[row["Keystone"]][1] += 1
+    else:
+        keystoneWinLoss[row["Keystone"]][0] += 1
 
 keystoneWinPercent = OrderedDict()
 for i in keystones:
@@ -378,4 +379,135 @@ for p in ax.patches:
     ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 + y_offset), fontsize=8)
 plt.show()
 
-print(keystoneWinLoss)
+print(runeWinLoss)
+scorchGatheringWinLossPerTeam = OrderedDict()
+for team in teams:
+    scorchGatheringWinLossPerTeam[team] = [0, 0, 0, 0]
+
+scorchGatheringWinLossAgainstPerTeam = OrderedDict()
+for team in teams:
+    scorchGatheringWinLossAgainstPerTeam[team] = [0, 0, 0, 0]
+
+teamWinLoss = OrderedDict()
+for i in teams:
+    teamWinLoss[i] = [0, 0]
+
+# get a dictionary for each team of their wins and losses
+for index, row in picks.iterrows():
+    if row["GameResult"] == "Win":
+        teamWinLoss[row["Team"]][0] += 1
+    else:
+        teamWinLoss[row["Team"]][1] += 1
+for i in teamWinLoss.keys():
+    teamWinLoss[i][0] = teamWinLoss[i][0] // 5
+    teamWinLoss[i][1] = teamWinLoss[i][1] // 5
+
+# get a dictionary for each teams win/loss ratio
+teamWinRate = OrderedDict()
+for i in teams:
+    teamWinRate[i] = teamWinLoss[i][0] / (teamWinLoss[i][0] + teamWinLoss[i][1])
+
+for index, row in picks.iterrows():
+    if row["Rune1"] == "Scorch" or row["Rune2"] == "Scorch" or row["Rune3"] == "Scorch" or row["Rune4"] == "Scorch" or row["Rune5"] == "Scorch":
+        if row["GameResult"] == "Win":
+            scorchGatheringWinLossPerTeam[row["TeamVS"]][1] += 1
+            scorchGatheringWinLossAgainstPerTeam[row["Team"]][0] += 1
+        else:
+            scorchGatheringWinLossPerTeam[row["TeamVS"]][0] += 1
+            scorchGatheringWinLossAgainstPerTeam[row["Team"]][1] += 1
+    if row["Rune1"] == "Gathering Storm" or row["Rune2"] == "Gathering Storm" or row["Rune3"] == "Gathering Storm" or row["Rune4"] == "Gathering Storm" or row["Rune5"] == "Gathering Storm":
+        if row["GameResult"] == "Win":
+            scorchGatheringWinLossPerTeam[row["TeamVS"]][3] += 1
+            scorchGatheringWinLossAgainstPerTeam[row["Team"]][2] += 1
+        else:
+            scorchGatheringWinLossPerTeam[row["TeamVS"]][2] += 1
+            scorchGatheringWinLossAgainstPerTeam[row["Team"]][3] += 1
+
+
+scorchWinRatePerTeam = OrderedDict()
+winRateAgainstScorch = OrderedDict()
+gatheringStormWinRatePerTeam = OrderedDict()
+winRateAgainstGatheringStorm = OrderedDict()
+for team in scorchGatheringWinLossPerTeam.keys():
+    try:
+        scorchWinRatePerTeam[team] = scorchGatheringWinLossPerTeam[team][0] / (
+                scorchGatheringWinLossPerTeam[team][0] + scorchGatheringWinLossPerTeam[team][1])
+    except ZeroDivisionError:
+        scorchWinRatePerTeam[team] = scorchGatheringWinLossPerTeam[team][0] / (
+                    scorchGatheringWinLossPerTeam[team][0] + scorchGatheringWinLossPerTeam[team][1] + 0.0000000001)
+for team in scorchGatheringWinLossPerTeam.keys():
+    try:
+        winRateAgainstScorch[team] = scorchGatheringWinLossAgainstPerTeam[team][0] / (
+                scorchGatheringWinLossAgainstPerTeam[team][0] + scorchGatheringWinLossAgainstPerTeam[team][1])
+    except ZeroDivisionError:
+        winRateAgainstScorch[team] = scorchGatheringWinLossAgainstPerTeam[team][0] / (
+                scorchGatheringWinLossAgainstPerTeam[team][0] + scorchGatheringWinLossAgainstPerTeam[team][1] + 0.000000001)
+for team in scorchGatheringWinLossPerTeam.keys():
+    try:
+        gatheringStormWinRatePerTeam[team] = scorchGatheringWinLossPerTeam[team][2] / (
+                scorchGatheringWinLossPerTeam[team][2] + scorchGatheringWinLossPerTeam[team][3])
+    except ZeroDivisionError:
+        gatheringStormWinRatePerTeam[team] = scorchGatheringWinLossPerTeam[team][2] / (
+                scorchGatheringWinLossPerTeam[team][2] + scorchGatheringWinLossPerTeam[team][3] + 0.000000001)
+for team in scorchGatheringWinLossPerTeam.keys():
+    try:
+        winRateAgainstGatheringStorm[team] = scorchGatheringWinLossAgainstPerTeam[team][2] / (
+            scorchGatheringWinLossAgainstPerTeam[team][2] + scorchGatheringWinLossAgainstPerTeam[team][3])
+    except ZeroDivisionError:
+        winRateAgainstGatheringStorm[team] = scorchGatheringWinLossAgainstPerTeam[team][2] / (
+                scorchGatheringWinLossAgainstPerTeam[team][2] + scorchGatheringWinLossAgainstPerTeam[team][3] + 0.0000001)
+
+df = pd.DataFrame({
+    "Win Rate of Scorch per team": list(scorchWinRatePerTeam.values()),
+    "Win Rate of Gathering Storm per team": list(gatheringStormWinRatePerTeam.values())},
+    index=[str(x) + "\nGathering Storm Picks: " + str(scorchGatheringWinLossPerTeam[x][2] + scorchGatheringWinLossPerTeam[x][3])
+           + "\nScorch Picks: " + str(scorchGatheringWinLossPerTeam[x][0] + scorchGatheringWinLossPerTeam[x][1])
+           for x in teams]
+)
+ax = df.plot.bar(title="Win Rates of Scorch vs Gathering Storm per team")
+ax.get_legend()
+x_offset = -0.1
+y_offset = 0.02
+for p in ax.patches:
+    b = p.get_bbox()
+    val = "{:.2f}".format(b.y1 + b.y0)
+    ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 + y_offset), fontsize=8)
+plt.show()
+
+df = pd.DataFrame({
+    "Win Rate against Scorch": list(winRateAgainstScorch.values()),
+    "Win Rate against Gathering Storm": list(winRateAgainstGatheringStorm.values())},
+    index=[str(x) + "\nGathering Storm Picks: " + str(scorchGatheringWinLossAgainstPerTeam[x][2] + scorchGatheringWinLossAgainstPerTeam[x][3])
+                    + "\nScorch Picks: " + str(scorchGatheringWinLossAgainstPerTeam[x][0] + scorchGatheringWinLossAgainstPerTeam[x][1])
+           for x in teams]
+)
+ax = df.plot.bar(title="Win Rates playing against Scorch vs Gathering Storm per team")
+ax.get_legend()
+x_offset = -0.1
+y_offset = 0.02
+for p in ax.patches:
+    b = p.get_bbox()
+    val = "{:.2f}".format(b.y1 + b.y0)
+    ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 + y_offset), fontsize=8)
+plt.show()
+
+CIList = [1.96*math.sqrt(0.5*0.5/50), 1.96*math.sqrt(0.5*0.5/46)]
+
+df = pd.DataFrame({
+    "Win Rates": [0.64, 0.33]},
+    index=["Gathering Storm", "Scorch"]
+)
+ax = df.plot.bar(yerr=CIList, ylim=(0, 1.0))
+ax.set_title("Win Rates of each tier in total for LS and Nemesis Tier List with confidence interval")
+ax.get_legend().remove()
+x_offset = -0.05
+y_offset = 0.01
+for p in ax.patches:
+    b = p.get_bbox()
+    val = "{:.2f}".format(b.y1 + b.y0)
+    ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 + y_offset), fontsize=8)
+plt.axhline(y=0.5, color='r', linestyle='-')
+plt.show()
+
+print(CIList)
+print(scorchGatheringWinLossAgainstPerTeam)
