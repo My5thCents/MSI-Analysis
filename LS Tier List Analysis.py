@@ -202,9 +202,16 @@ LSSupport = {
 
 championsGroup = pd.read_csv("ChampionsPicked.csv")
 championsRumble = pd.read_csv("ChampionsPickedRumbleStage.csv")
+released = pd.read_csv("ChampionReleaseDate.csv")
+teamExpected = pd.read_csv("TeamsWin%.csv")
 frames = [championsGroup, championsRumble]
 champions = pd.concat(frames)
-released = pd.read_csv("ChampionReleaseDate.csv")
+expected = []
+for index, row in champions.iterrows():
+    x = teamExpected.loc[teamExpected["Team"] == row["Team"], "Percent"].iloc[0]
+    y = teamExpected.loc[teamExpected["Team"] == row["TeamVS"], "Percent"].iloc[0]
+    expected.append(x / (x + y))
+champions["Expected"] = expected
 picks = champions[champions["Pick/Ban"] == "Pick"]
 bans = champions[(champions["Pick/Ban"] == "Ban") & (champions["Champion"] != "None")]
 top = champions[champions["Role"] == "Top"]
@@ -212,6 +219,8 @@ jungle = champions[champions["Role"] == "Jungle"]
 mid = champions[champions["Role"] == "Mid"]
 adc = champions[champions["Role"] == "Adc"]
 support = champions[champions["Role"] == "Support"]
+
+uniqueChamps = sorted(champions.Champion.unique())
 
 tiers = ["Z", "S", "A", "B", "C", "DONT", "Not in list"]
 
@@ -300,11 +309,6 @@ for index, row in support.iterrows():
         else:
             supportWinLoss[LSSupport[row["Champion"]]][0] += 1
 
-print(topWinLoss)
-print(jungleWinLoss)
-print(midWinLoss)
-print(adcWinLoss)
-print(supportWinLoss)
 
 # find the total win loss of all tiers in LS tier list
 totalWinLoss = OrderedDict()
@@ -496,7 +500,6 @@ CIList = []
 for i in CI.keys():
     CIList.append(CI[i])
 
-print(CI)
 # Plot total win rates with confidence intervals
 df = pd.DataFrame({
     "Jungle Win Rates": list(totalWinRatio.values())},
@@ -514,23 +517,204 @@ for p in ax.patches:
 plt.axhline(y=0.5, color='r', linestyle='-')
 plt.show()
 
-for i in LSTop.keys():
-    if LSTop[i] == "Not in list":
-        print(i)
-for i in LSJungle.keys():
-    if LSJungle[i] == "Not in list":
-        print(i)
-for i in LSMid.keys():
-    if LSMid[i] == "Not in list":
-        print(i)
-for i in LSBot.keys():
-    if LSBot[i] == "Not in list":
-        print(i)
-for i in LSSupport.keys():
-    if LSSupport[i] == "Not in list":
-        print(i)
-# print(LSTop["Not in list"])
-# print(LSJungle["Not in list"])
-# print(LSMid["Not in list"])
-# print(LSBot["Not in list"])
-# print(LSSupport["Not in list"])
+# for i in LSTop.keys():
+#     if LSTop[i] == "Not in list":
+#         print(i)
+# for i in LSJungle.keys():
+#     if LSJungle[i] == "Not in list":
+#         print(i)
+# for i in LSMid.keys():
+#     if LSMid[i] == "Not in list":
+#         print(i)
+# for i in LSBot.keys():
+#     if LSBot[i] == "Not in list":
+#         print(i)
+# for i in LSSupport.keys():
+#     if LSSupport[i] == "Not in list":
+#         print(i)
+
+topTierExpectedWins = OrderedDict()
+jungleTierExpectedWins = OrderedDict()
+midTierExpectedWins = OrderedDict()
+adcTierExpectedWins = OrderedDict()
+supportTierExpectedWins = OrderedDict()
+totalTierExpectedWins = OrderedDict()
+topTierExpectedWinsPercent = OrderedDict()
+jungleTierExpectedWinsPercent = OrderedDict()
+midTierExpectedWinsPercent = OrderedDict()
+adcTierExpectedWinsPercent = OrderedDict()
+supportTierExpectedWinsPercent = OrderedDict()
+totalTierExpectedWinsPercent = OrderedDict()
+topTierBlinds = OrderedDict()
+jungleTierBlinds = OrderedDict()
+midTierBlinds = OrderedDict()
+adcTierBlinds = OrderedDict()
+supportTierBlinds = OrderedDict()
+totalTierBlinds = OrderedDict()
+topTierBlindsPercent = OrderedDict()
+jungleTierBlindsPercent = OrderedDict()
+midTierBlindsPercent = OrderedDict()
+adcTierBlindsPercent = OrderedDict()
+supportTierBlindsPercent = OrderedDict()
+totalTierBlindsPercent = OrderedDict()
+
+for tier in tiers:
+    topTierExpectedWins[tier] = 0
+    jungleTierExpectedWins[tier] = 0
+    midTierExpectedWins[tier] = 0
+    adcTierExpectedWins[tier] = 0
+    supportTierExpectedWins[tier] = 0
+    topTierBlinds[tier] = 0
+    jungleTierBlinds[tier] = 0
+    midTierBlinds[tier] = 0
+    adcTierBlinds[tier] = 0
+    supportTierBlinds[tier] = 0
+    topTierBlindsPercent[tier] = 0
+    jungleTierBlindsPercent[tier] = 0
+    midTierBlindsPercent[tier] = 0
+    adcTierBlindsPercent[tier] = 0
+    supportTierBlindsPercent[tier] = 0
+for index, row in top.iterrows():
+    topTierExpectedWins[LSTop[row["Champion"]]] += row["Expected"]
+    if row["Blind?"] == "B":
+        topTierBlinds[LSTop[row["Champion"]]] += 1
+
+for index, row in jungle.iterrows():
+    jungleTierExpectedWins[LSJungle[row["Champion"]]] += row["Expected"]
+    if row["Blind?"] == "B":
+        jungleTierBlinds[LSJungle[row["Champion"]]] += 1
+
+for index, row in mid.iterrows():
+    midTierExpectedWins[LSMid[row["Champion"]]] += row["Expected"]
+    if row["Blind?"] == "B":
+        midTierBlinds[LSMid[row["Champion"]]] += 1
+
+for index, row in adc.iterrows():
+    adcTierExpectedWins[LSBot[row["Champion"]]] += row["Expected"]
+    if row["Blind?"] == "B":
+        adcTierBlinds[LSBot[row["Champion"]]] += 1
+
+for index, row in support.iterrows():
+    supportTierExpectedWins[LSSupport[row["Champion"]]] += row["Expected"]
+    if row["Blind?"] == "B":
+        supportTierBlinds[LSSupport[row["Champion"]]] += 1
+
+for tier in tiers:
+    topTierBlindsPercent[tier] = round(topTierBlinds[tier]/(sum(topWinLoss[tier]) + 0.0000001), 5)
+    jungleTierBlindsPercent[tier] = round(jungleTierBlinds[tier]/(sum(jungleWinLoss[tier]) + 0.0000001), 5)
+    midTierBlindsPercent[tier] = round(midTierBlinds[tier]/(sum(midWinLoss[tier]) + 0.00000001), 5)
+    adcTierBlindsPercent[tier] = round(adcTierBlinds[tier]/(sum(adcWinLoss[tier]) + 0.0000001), 5)
+    supportTierBlindsPercent[tier] = round(supportTierBlinds[tier]/(sum(supportWinLoss[tier]) + 0.000001), 5)
+    topTierExpectedWinsPercent[tier] = round(topTierExpectedWins[tier]/(sum(topWinLoss[tier]) + 0.000001), 5)
+    jungleTierExpectedWinsPercent[tier] = round(jungleTierExpectedWins[tier]/(sum(jungleWinLoss[tier]) + 0.000001), 5)
+    midTierExpectedWinsPercent[tier] = round(midTierExpectedWins[tier]/(sum(midWinLoss[tier]) + 0.0000001), 5)
+    adcTierExpectedWinsPercent[tier] = round(adcTierExpectedWins[tier]/(sum(adcWinLoss[tier]) + 0.0000001), 5)
+    supportTierExpectedWinsPercent[tier] = round(supportTierExpectedWins[tier]/(sum(supportWinLoss[tier]) + 0.000001), 5)
+    totalTierBlinds[tier] = topTierBlinds[tier] + jungleTierBlinds[tier] + midTierBlinds[tier] + adcTierBlinds[tier] + supportTierBlinds[tier]
+    totalTierBlindsPercent[tier] = totalTierBlinds[tier] / sum(totalWinLoss[tier])
+    totalTierExpectedWins[tier] = topTierExpectedWins[tier] + jungleTierExpectedWins[tier] + midTierExpectedWins[tier] + adcTierExpectedWins[tier] + supportTierExpectedWins[tier]
+    totalTierExpectedWinsPercent[tier] = totalTierExpectedWins[tier]/sum(totalWinLoss[tier])
+
+totalActualMinusExpected = OrderedDict()
+for tier in tiers:
+    totalActualMinusExpected[tier] = totalWinRatio[tier] - totalTierExpectedWinsPercent[tier]
+
+
+df = pd.DataFrame({"Win Rate - Expected Win Rate": list(totalActualMinusExpected.values())},
+                  index=tiers)
+ax = df.plot.bar(yerr=CIList)
+ax.set_title("Win Rate - Expected Win Rate")
+ax.get_legend().remove()
+x_offset = -0.3
+y_offset = 0.005
+for p in ax.patches:
+    b = p.get_bbox()
+    val = "{:+.2f}".format(b.y1 + b.y0)
+    if float(val) > 0:
+        ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 + y_offset), fontsize=8)
+    if float(val) < 0:
+        ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 - y_offset), fontsize=8)
+plt.axhline(y=0, color='r', linestyle='-')
+plt.show()
+
+mostPlayedRole = OrderedDict()
+for champion in uniqueChamps:
+    mostPlayedRole[champion] = [0, 0, 0, 0, 0]
+for index, row in picks.iterrows():
+    if row["Role"] == "Top":
+        mostPlayedRole[row["Champion"]][0] += 1
+    elif row["Role"] == "Jungle":
+        mostPlayedRole[row["Champion"]][1] += 1
+    elif row["Role"] == "Mid":
+        mostPlayedRole[row["Champion"]][2] += 1
+    elif row["Role"] == "Adc":
+        mostPlayedRole[row["Champion"]][3] += 1
+    elif row["Role"] == "Support":
+        mostPlayedRole[row["Champion"]][4] += 1
+
+for champion in mostPlayedRole.keys():
+    max_value = max(mostPlayedRole[champion])
+    max_index = mostPlayedRole[champion].index(max_value)
+    if max_value == 0:
+        if champion in LSTop.keys():
+            mostPlayedRole[champion] = "Top"
+        elif champion in LSJungle.keys():
+            mostPlayedRole[champion] = "Jungle"
+        elif champion in LSMid.keys():
+            mostPlayedRole[champion] = "Mid"
+        elif champion in LSBot.keys():
+            mostPlayedRole[champion] = "Adc"
+        elif champion in LSSupport.keys():
+            mostPlayedRole[champion] = "Support"
+        else:
+            mostPlayedRole[champion] = "Not in list"
+    elif max_index == 0:
+        mostPlayedRole[champion] = "Top"
+    elif max_index == 1:
+        mostPlayedRole[champion] = "Jungle"
+    elif max_index == 2:
+        mostPlayedRole[champion] = "Mid"
+    elif max_index == 3:
+        mostPlayedRole[champion] = "Adc"
+    elif max_index == 4:
+        mostPlayedRole[champion] = "Support"
+
+count = 0
+bansPerTier = OrderedDict()
+for tier in tiers:
+    bansPerTier[tier] = 0
+for index, row in bans.iterrows():
+    count += 1
+    champion = row["Champion"]
+    role = mostPlayedRole[champion]
+    try:
+        if role == "Top":
+            bansPerTier[LSTop[champion]] += 1
+        if role == "Jungle":
+            bansPerTier[LSJungle[champion]] += 1
+        if role == "Mid":
+            bansPerTier[LSMid[champion]] += 1
+        if role == "Adc":
+            bansPerTier[LSBot[champion]] += 1
+        if role == "Support":
+            bansPerTier[LSSupport[champion]] += 1
+        if role == "Not in list":
+            bansPerTier["Not in list"] += 1
+    except KeyError:
+        bansPerTier["Not in list"] += 1
+
+
+for tier in tiers:
+    print(tier, "\t",
+          round(totalWinRatio[tier], 3), "\t",
+          round(totalTierExpectedWinsPercent[tier], 3), "\t",
+          round(totalActualMinusExpected[tier], 3), "\t",
+          sum(totalWinLoss[tier]), "\t",
+          bansPerTier[tier], "\t",
+          round(totalTierBlindsPercent[tier], 3))
+
+count = 0
+for index, row in picks.iterrows():
+    count += row["Expected"]
+
+print(count/5)

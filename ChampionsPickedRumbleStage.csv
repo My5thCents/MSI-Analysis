@@ -1,601 +1,881 @@
-﻿Team,Side,Champion,GameResult,Pick/Ban,Day,TeamVS,Role
-MAD,Blue,Renekton,Loss,Ban,Rumble Day 5,C9,Ban
-MAD,Blue,Udyr,Loss,Ban,Rumble Day 5,C9,Ban
-MAD,Blue,Thresh,Loss,Ban,Rumble Day 5,C9,Ban
-MAD,Blue,Malphite,Loss,Ban,Rumble Day 5,C9,Ban
-MAD,Blue,Nautilus,Loss,Ban,Rumble Day 5,C9,Ban
-MAD,Blue,Jayce,Loss,Pick,Rumble Day 5,C9,Top
-MAD,Blue,Rumble,Loss,Pick,Rumble Day 5,C9,Jungle
-MAD,Blue,Lucian,Loss,Pick,Rumble Day 5,C9,Mid
-MAD,Blue,Xayah,Loss,Pick,Rumble Day 5,C9,Adc
-MAD,Blue,Rakan,Loss,Pick,Rumble Day 5,C9,Support
-C9,Red,Varus,Win,Ban,Rumble Day 5,MAD,Ban
-C9,Red,Lee Sin,Win,Ban,Rumble Day 5,MAD,Ban
-C9,Red,Senna,Win,Ban,Rumble Day 5,MAD,Ban
-C9,Red,Wukong,Win,Ban,Rumble Day 5,MAD,Ban
-C9,Red,Leona,Win,Ban,Rumble Day 5,MAD,Ban
-C9,Red,Irelia,Win,Pick,Rumble Day 5,MAD,Top
-C9,Red,Morgana,Win,Pick,Rumble Day 5,MAD,Jungle
-C9,Red,Kalista,Win,Pick,Rumble Day 5,MAD,Mid
-C9,Red,Kaisa,Win,Pick,Rumble Day 5,MAD,Adc
-C9,Red,Alistar,Win,Pick,Rumble Day 5,MAD,Support
-DK,Blue,Thresh,Win,Ban,Rumble Day 5,PGG,Ban
-DK,Blue,Varus,Win,Ban,Rumble Day 5,PGG,Ban
-DK,Blue,Urgot,Win,Ban,Rumble Day 5,PGG,Ban
-DK,Blue,Qiyana,Win,Ban,Rumble Day 5,PGG,Ban
-DK,Blue,Sett,Win,Ban,Rumble Day 5,PGG,Ban
-DK,Blue,Lee Sin,Win,Pick,Rumble Day 5,PGG,Top
-DK,Blue,Morgana,Win,Pick,Rumble Day 5,PGG,Jungle
-DK,Blue,Zoe,Win,Pick,Rumble Day 5,PGG,Mid
-DK,Blue,Kaisa,Win,Pick,Rumble Day 5,PGG,Adc
-DK,Blue,Nautilus,Win,Pick,Rumble Day 5,PGG,Support
-PGG,Red,Renekton,Loss,Ban,Rumble Day 5,DK,Ban
-PGG,Red,Leona,Loss,Ban,Rumble Day 5,DK,Ban
-PGG,Red,Senna,Loss,Ban,Rumble Day 5,DK,Ban
-PGG,Red,Jayce,Loss,Ban,Rumble Day 5,DK,Ban
-PGG,Red,Sylas,Loss,Ban,Rumble Day 5,DK,Ban
-PGG,Red,Gnar,Loss,Pick,Rumble Day 5,DK,Top
-PGG,Red,Udyr,Loss,Pick,Rumble Day 5,DK,Jungle
-PGG,Red,Viktor,Loss,Pick,Rumble Day 5,DK,Mid
-PGG,Red,Lucian,Loss,Pick,Rumble Day 5,DK,Adc
-PGG,Red,Braum,Loss,Pick,Rumble Day 5,DK,Support
-PSG,Blue,Lucian,Win,Ban,Rumble Day 5,PSG,Ban
-PSG,Blue,Lee Sin,Win,Ban,Rumble Day 5,PSG,Ban
-PSG,Blue,Senna,Win,Ban,Rumble Day 5,PSG,Ban
-PSG,Blue,Zoe,Win,Ban,Rumble Day 5,PSG,Ban
-PSG,Blue,Leblanc,Win,Ban,Rumble Day 5,PSG,Ban
-PSG,Blue,Nocturne,Win,Pick,Rumble Day 5,PSG,Top
-PSG,Blue,Rumble,Win,Pick,Rumble Day 5,PSG,Jungle
-PSG,Blue,Qiyana,Win,Pick,Rumble Day 5,PSG,Mid
-PSG,Blue,Kaisa,Win,Pick,Rumble Day 5,PSG,Adc
-PSG,Blue,Galio,Win,Pick,Rumble Day 5,PSG,Support
-C9,Red,Thresh,Loss,Ban,Rumble Day 5,PSG,Ban
-C9,Red,Varus,Loss,Ban,Rumble Day 5,PSG,Ban
-C9,Red,Renekton,Loss,Ban,Rumble Day 5,PSG,Ban
-C9,Red,Rell,Loss,Ban,Rumble Day 5,PSG,Ban
-C9,Red,Nautilus,Loss,Ban,Rumble Day 5,PSG,Ban
-C9,Red,Aatrox,Loss,Pick,Rumble Day 5,PSG,Top
-C9,Red,Udyr,Loss,Pick,Rumble Day 5,PSG,Jungle
-C9,Red,Sylas,Loss,Pick,Rumble Day 5,PSG,Mid
-C9,Red,Tristana,Loss,Pick,Rumble Day 5,PSG,Adc
-C9,Red,Leona,Loss,Pick,Rumble Day 5,PSG,Support
-RNG,Blue,Zoe,Loss,Ban,Rumble Day 5,MAD,Ban
-RNG,Blue,Thresh,Loss,Ban,Rumble Day 5,MAD,Ban
-RNG,Blue,Senna,Loss,Ban,Rumble Day 5,MAD,Ban
-RNG,Blue,Jayce,Loss,Ban,Rumble Day 5,MAD,Ban
-RNG,Blue,Nautilus,Loss,Ban,Rumble Day 5,MAD,Ban
-RNG,Blue,Gnar,Loss,Pick,Rumble Day 5,MAD,Top
-RNG,Blue,Morgana,Loss,Pick,Rumble Day 5,MAD,Jungle
-RNG,Blue,Viktor,Loss,Pick,Rumble Day 5,MAD,Mid
-RNG,Blue,Varus,Loss,Pick,Rumble Day 5,MAD,Adc
-RNG,Blue,Alistar,Loss,Pick,Rumble Day 5,MAD,Support
-MAD,Red,Lee Sin,Win,Ban,Rumble Day 5,RNG,Ban
-MAD,Red,Renekton,Win,Ban,Rumble Day 5,RNG,Ban
-MAD,Red,Udyr,Win,Ban,Rumble Day 5,RNG,Ban
-MAD,Red,Tahm Kench,Win,Ban,Rumble Day 5,RNG,Ban
-MAD,Red,Twisted Fate,Win,Ban,Rumble Day 5,RNG,Ban
-MAD,Red,Wukong,Win,Pick,Rumble Day 5,RNG,Top
-MAD,Red,Rumble,Win,Pick,Rumble Day 5,RNG,Jungle
-MAD,Red,Lucian,Win,Pick,Rumble Day 5,RNG,Mid
-MAD,Red,Kaisa,Win,Pick,Rumble Day 5,RNG,Adc
-MAD,Red,Leona,Win,Pick,Rumble Day 5,RNG,Support
-PGG,Blue,Varus,Loss,Ban,Rumble Day 5,PGG,Ban
-PGG,Blue,Thresh,Loss,Ban,Rumble Day 5,PGG,Ban
-PGG,Blue,Morgana,Loss,Ban,Rumble Day 5,PGG,Ban
-PGG,Blue,Sylas,Loss,Ban,Rumble Day 5,PGG,Ban
-PGG,Blue,Jayce,Loss,Ban,Rumble Day 5,PGG,Ban
-PGG,Blue,Gnar,Loss,Pick,Rumble Day 5,PGG,Top
-PGG,Blue,Udyr,Loss,Pick,Rumble Day 5,PGG,Jungle
-PGG,Blue,Viktor,Loss,Pick,Rumble Day 5,PGG,Mid
-PGG,Blue,Xayah,Loss,Pick,Rumble Day 5,PGG,Adc
-PGG,Blue,Braum,Loss,Pick,Rumble Day 5,PGG,Support
-PSG,Red,Senna,Win,Ban,Rumble Day 5,PGG,Ban
-PSG,Red,Lee Sin,Win,Ban,Rumble Day 5,PGG,Ban
-PSG,Red,Urgot,Win,Ban,Rumble Day 5,PGG,Ban
-PSG,Red,Rakan,Win,Ban,Rumble Day 5,PGG,Ban
-PSG,Red,Alistar,Win,Ban,Rumble Day 5,PGG,Ban
-PSG,Red,Gangplank,Win,Pick,Rumble Day 5,PGG,Top
-PSG,Red,Rumble,Win,Pick,Rumble Day 5,PGG,Jungle
-PSG,Red,Renekton,Win,Pick,Rumble Day 5,PGG,Mid
-PSG,Red,Kaisa,Win,Pick,Rumble Day 5,PGG,Adc
-PSG,Red,Leona,Win,Pick,Rumble Day 5,PGG,Support
-RNG,Blue,Senna,Win,Ban,Rumble Day 5,DK,Ban
-RNG,Blue,Zoe,Win,Ban,Rumble Day 5,DK,Ban
-RNG,Blue,Sett,Win,Ban,Rumble Day 5,DK,Ban
-RNG,Blue,Lucian,Win,Ban,Rumble Day 5,DK,Ban
-RNG,Blue,Gangplank,Win,Ban,Rumble Day 5,DK,Ban
-RNG,Blue,Gnar,Win,Pick,Rumble Day 5,DK,Top
-RNG,Blue,Morgana,Win,Pick,Rumble Day 5,DK,Jungle
-RNG,Blue,Renekton,Win,Pick,Rumble Day 5,DK,Mid
-RNG,Blue,Tristana,Win,Pick,Rumble Day 5,DK,Adc
-RNG,Blue,Rell,Win,Pick,Rumble Day 5,DK,Support
-DK,Red,Thresh,DK,Ban,Rumble Day 5,RNG,Ban
-DK,Red,Varus,DK,Ban,Rumble Day 5,RNG,Ban
-DK,Red,Lee Sin,DK,Ban,Rumble Day 5,RNG,Ban
-DK,Red,Leona,DK,Ban,Rumble Day 5,RNG,Ban
-DK,Red,Twisted Fate,DK,Ban,Rumble Day 5,RNG,Ban
-DK,Red,Sion,DK,Pick,Rumble Day 5,RNG,Top
-DK,Red,Udyr,DK,Pick,Rumble Day 5,RNG,Jungle
-DK,Red,Viktor,DK,Pick,Rumble Day 5,RNG,Mid
-DK,Red,Kaisa,DK,Pick,Rumble Day 5,RNG,Adc
-DK,Red,Nautilus,DK,Pick,Rumble Day 5,RNG,Support
-PGG,Blue,Lucian,Win,Ban,Rumble Day 4,C9,Ban
-PGG,Blue,Lee Sin,Win,Ban,Rumble Day 4,C9,Ban
-PGG,Blue,Varus,Win,Ban,Rumble Day 4,C9,Ban
-PGG,Blue,Udyr,Win,Pick,Rumble Day 4,C9,Jungle
-PGG,Blue,Senna,Win,Pick,Rumble Day 4,C9,Adc
-PGG,Blue,Tahm Kench,Win,Pick,Rumble Day 4,C9,Support
-PGG,Blue,Jayce,Win,Ban,Rumble Day 4,C9,Ban
-PGG,Blue,Yone,Win,Ban,Rumble Day 4,C9,Ban
-PGG,Blue,Sett,Win,Pick,Rumble Day 4,C9,Top
-PGG,Blue,Viktor,Win,Pick,Rumble Day 4,C9,Mid
-C9,Red,Gnar,Loss,Ban,Rumble Day 4,PGG,Ban
-C9,Red,Thresh,Loss,Ban,Rumble Day 4,PGG,Ban
-C9,Red,Renekton,Loss,Ban,Rumble Day 4,PGG,Ban
-C9,Red,Kaisa,Loss,Pick,Rumble Day 4,PGG,Adc
-C9,Red,Nautilus,Loss,Pick,Rumble Day 4,PGG,Support
-C9,Red,Lillia,Loss,Pick,Rumble Day 4,PGG,Jungle
-C9,Red,Urgot,Loss,Ban,Rumble Day 4,PGG,Ban
-C9,Red,Syndra,Loss,Ban,Rumble Day 4,PGG,Ban
-C9,Red,Sion,Loss,Pick,Rumble Day 4,PGG,Top
-C9,Red,Tristana,Loss,Pick,Rumble Day 4,PGG,Mid
-DK,Blue,Thresh,Win,Ban,Rumble Day 4,PSG,Ban
-DK,Blue,Varus,Win,Ban,Rumble Day 4,PSG,Ban
-DK,Blue,Udyr,Win,Ban,Rumble Day 4,PSG,Ban
-DK,Blue,Kaisa,Win,Pick,Rumble Day 4,PSG,Adc
-DK,Blue,Rumble,Win,Pick,Rumble Day 4,PSG,Jungle
-DK,Blue,Nautilus,Win,Pick,Rumble Day 4,PSG,Support
-DK,Blue,Leona,Win,Ban,Rumble Day 4,PSG,Ban
-DK,Blue,Twisted Fate,Win,Ban,Rumble Day 4,PSG,Ban
-DK,Blue,Zoe,Win,Pick,Rumble Day 4,PSG,Mid
-DK,Blue,Gnar,Win,Pick,Rumble Day 4,PSG,Top
-PSG,Red,Senna,Loss,Ban,Rumble Day 4,DK,Ban
-PSG,Red,Lucian,Loss,Ban,Rumble Day 4,DK,Ban
-PSG,Red,Renekton,Loss,Ban,Rumble Day 4,DK,Ban
-PSG,Red,Lee Sin,Loss,Pick,Rumble Day 4,DK,Top
-PSG,Red,Morgana,Loss,Pick,Rumble Day 4,DK,Jungle
-PSG,Red,Xayah,Loss,Pick,Rumble Day 4,DK,Adc
-PSG,Red,Sett,Loss,Ban,Rumble Day 4,DK,Ban
-PSG,Red,Jayce,Loss,Ban,Rumble Day 4,DK,Ban
-PSG,Red,Rakan,Loss,Pick,Rumble Day 4,DK,Support
-PSG,Red,Sylas,Loss,Pick,Rumble Day 4,DK,Mid
-PGG,Blue,Lucian,Loss,Ban,Rumble Day 4,MAD,Ban
-PGG,Blue,Morgana,Loss,Ban,Rumble Day 4,MAD,Ban
-PGG,Blue,Varus,Loss,Ban,Rumble Day 4,MAD,Ban
-PGG,Blue,Rumble,Loss,Pick,Rumble Day 4,MAD,Jungle
-PGG,Blue,Thresh,Loss,Pick,Rumble Day 4,MAD,Support
-PGG,Blue,Aphelios,Loss,Pick,Rumble Day 4,MAD,Adc
-PGG,Blue,Gnar,Loss,Ban,Rumble Day 4,MAD,Ban
-PGG,Blue,Orianna,Loss,Ban,Rumble Day 4,MAD,Ban
-PGG,Blue,Qiyana,Loss,Pick,Rumble Day 4,MAD,Mid
-PGG,Blue,Sion,Loss,Pick,Rumble Day 4,MAD,Top
-MAD,Red,Renekton,Win,Ban,Rumble Day 4,PGG,Ban
-MAD,Red,Lee Sin,Win,Ban,Rumble Day 4,PGG,Ban
-MAD,Red,Udyr,Win,Ban,Rumble Day 4,PGG,Ban
-MAD,Red,Volibear,Win,Pick,Rumble Day 4,PGG,Jungle
-MAD,Red,Kaisa,Win,Pick,Rumble Day 4,PGG,Adc
-MAD,Red,Leona,Win,Pick,Rumble Day 4,PGG,Support
-MAD,Red,Urgot,Win,Ban,Rumble Day 4,PGG,Ban
-MAD,Red,Kassadin,Win,Ban,Rumble Day 4,PGG,Ban
-MAD,Red,Jayce,Win,Pick,Rumble Day 4,PGG,Top
-MAD,Red,Lissandra,Win,Pick,Rumble Day 4,PGG,Mid
-C9,Blue,Lucian,Win,Ban,Rumble Day 4,RNG,Ban
-C9,Blue,Varus,Win,Ban,Rumble Day 4,RNG,Ban
-C9,Blue,Thresh,Win,Ban,Rumble Day 4,RNG,Ban
-C9,Blue,Lee Sin,Win,Pick,Rumble Day 4,RNG,Top
-C9,Blue,Kaisa,Win,Pick,Rumble Day 4,RNG,Adc
-C9,Blue,Leona,Win,Pick,Rumble Day 4,RNG,Support
-C9,Blue,Gnar,Win,Ban,Rumble Day 4,RNG,Ban
-C9,Blue,Orianna,Win,Ban,Rumble Day 4,RNG,Ban
-C9,Blue,Zoe,Win,Pick,Rumble Day 4,RNG,Mid
-C9,Blue,Volibear,Win,Pick,Rumble Day 4,RNG,Jungle
-RNG,Red,Udyr,Loss,Ban,Rumble Day 4,C9,Ban
-RNG,Red,Morgana,Loss,Ban,Rumble Day 4,C9,Ban
-RNG,Red,Renekton,Loss,Ban,Rumble Day 4,C9,Ban
-RNG,Red,Rumble,Loss,Pick,Rumble Day 4,C9,Jungle
-RNG,Red,Nautilus,Loss,Pick,Rumble Day 4,C9,Support
-RNG,Red,Xayah,Loss,Pick,Rumble Day 4,C9,Adc
-RNG,Red,Nidalee,Loss,Ban,Rumble Day 4,C9,Ban
-RNG,Red,Udyr,Loss,Ban,Rumble Day 4,C9,Ban
-RNG,Red,Jayce,Loss,Pick,Rumble Day 4,C9,Top
-RNG,Red,Twisted Fate,Loss,Pick,Rumble Day 4,C9,Mid
-MAD,Blue,Renekton,Loss,Ban,Rumble Day 4,DK,Ban
-MAD,Blue,Nocturne,Loss,Ban,Rumble Day 4,DK,Ban
-MAD,Blue,Tahm Kench,Loss,Ban,Rumble Day 4,DK,Ban
-MAD,Blue,Lee Sin,Loss,Pick,Rumble Day 4,DK,Top
-MAD,Blue,Xayah,Loss,Pick,Rumble Day 4,DK,Adc
-MAD,Blue,Rumble,Loss,Pick,Rumble Day 4,DK,Jungle
-MAD,Blue,Gnar,Loss,Ban,Rumble Day 4,DK,Ban
-MAD,Blue,Sett,Loss,Ban,Rumble Day 4,DK,Ban
-MAD,Blue,Viktor,Loss,Pick,Rumble Day 4,DK,Mid
-MAD,Blue,Rakan,Loss,Pick,Rumble Day 4,DK,Support
-DK,Red,Thresh,Win,Ban,Rumble Day 4,MAD,Ban
-DK,Red,Varus,Win,Ban,Rumble Day 4,MAD,Ban
-DK,Red,Lucian,Win,Ban,Rumble Day 4,MAD,Ban
-DK,Red,Kaisa,Win,Pick,Rumble Day 4,MAD,Adc
-DK,Red,Udyr,Win,Pick,Rumble Day 4,MAD,Jungle
-DK,Red,Nautilus,Win,Pick,Rumble Day 4,MAD,Support
-DK,Red,Leona,Win,Ban,Rumble Day 4,MAD,Ban
-DK,Red,Orianna,Win,Ban,Rumble Day 4,MAD,Ban
-DK,Red,Aatrox,Win,Pick,Rumble Day 4,MAD,Top
-DK,Red,Zoe,Win,Pick,Rumble Day 4,MAD,Mid
-PSG,Blue,Lucian,Loss,Ban,Rumble Day 4,RNG,Ban
-PSG,Blue,Varus,Loss,Ban,Rumble Day 4,RNG,Ban
-PSG,Blue,Thresh,Loss,Ban,Rumble Day 4,RNG,Ban
-PSG,Blue,Rumble,Loss,Pick,Rumble Day 4,RNG,Jungle
-PSG,Blue,Xayah,Loss,Pick,Rumble Day 4,RNG,Adc
-PSG,Blue,Leona,Loss,Pick,Rumble Day 4,RNG,Support
-PSG,Blue,Volibear,Loss,Ban,Rumble Day 4,RNG,Ban
-PSG,Blue,Olaf,Loss,Ban,Rumble Day 4,RNG,Ban
-PSG,Blue,Jayce,Loss,Pick,Rumble Day 4,RNG,Top
-PSG,Blue,Zoe,Loss,Pick,Rumble Day 4,RNG,Mid
-RNG,Red,Udyr,Win,Ban,Rumble Day 4,PSG,Ban
-RNG,Red,Morgana,Win,Ban,Rumble Day 4,PSG,Ban
-RNG,Red,Renekton,Win,Ban,Rumble Day 4,PSG,Ban
-RNG,Red,Kaisa,Win,Pick,Rumble Day 4,PSG,Adc
-RNG,Red,Nautilus,Win,Pick,Rumble Day 4,PSG,Support
-RNG,Red,Lee Sin,Win,Pick,Rumble Day 4,PSG,Top
-RNG,Red,Sett,Win,Ban,Rumble Day 4,PSG,Ban
-RNG,Red,Nocturne,Win,Ban,Rumble Day 4,PSG,Ban
-RNG,Red,Lillia,Win,Pick,Rumble Day 4,PSG,Jungle
-RNG,Red,Twisted Fate,Win,Pick,Rumble Day 4,PSG,Mid
-PSG,Blue,Senna,Win,Ban,Rumble Day 3,MAD,Ban
-PSG,Blue,Lucian,Win,Ban,Rumble Day 3,MAD,Ban
-PSG,Blue,Varus,Win,Ban,Rumble Day 3,MAD,Ban
-PSG,Blue,Udyr,Win,Pick,Rumble Day 3,MAD,Jungle
-PSG,Blue,Xayah,Win,Pick,Rumble Day 3,MAD,Adc
-PSG,Blue,Leona,Win,Pick,Rumble Day 3,MAD,Support
-PSG,Blue,Wukong,Win,Ban,Rumble Day 3,MAD,Ban
-PSG,Blue,Jayce,Win,Ban,Rumble Day 3,MAD,Ban
-PSG,Blue,Viktor,Win,Pick,Rumble Day 3,MAD,Mid
-PSG,Blue,Gangplank,Win,Pick,Rumble Day 3,MAD,Top
-MAD,Red,Renekton,Loss,Ban,Rumble Day 3,PSG,Ban
-MAD,Red,Lee Sin,Loss,Ban,Rumble Day 3,PSG,Ban
-MAD,Red,Thresh,Loss,Ban,Rumble Day 3,PSG,Ban
-MAD,Red,Kaisa,Loss,Pick,Rumble Day 3,PSG,Adc
-MAD,Red,Nautilus,Loss,Pick,Rumble Day 3,PSG,Support
-MAD,Red,Rumble,Loss,Pick,Rumble Day 3,PSG,Jungle
-MAD,Red,Sylas,Loss,Ban,Rumble Day 3,PSG,Ban
-MAD,Red,Nocturne,Loss,Ban,Rumble Day 3,PSG,Ban
-MAD,Red,Gnar,Loss,Pick,Rumble Day 3,PSG,Top
-MAD,Red,Orianna,Loss,Pick,Rumble Day 3,PSG,Mid
-C9,Blue,Thresh,Loss,Ban,Rumble Day 3,DK,Ban
-C9,Blue,Gnar,Loss,Ban,Rumble Day 3,DK,Ban
-C9,Blue,Varus,Loss,Ban,Rumble Day 3,DK,Ban
-C9,Blue,Senna,Loss,Pick,Rumble Day 3,DK,Adc
-C9,Blue,Renekton,Loss,Pick,Rumble Day 3,DK,Top
-C9,Blue,Morgana,Loss,Pick,Rumble Day 3,DK,Jungle
-C9,Blue,Tristana,Loss,Ban,Rumble Day 3,DK,Ban
-C9,Blue,Jayce,Loss,Ban,Rumble Day 3,DK,Ban
-C9,Blue,Syndra,Loss,Pick,Rumble Day 3,DK,Mid
-C9,Blue,Alistar,Loss,Pick,Rumble Day 3,DK,Support
-DK,Red,Orianna,Win,Ban,Rumble Day 3,C9,Ban
-DK,Red,Tahm Kench,Win,Ban,Rumble Day 3,C9,Ban
-DK,Red,Lee Sin,Win,Ban,Rumble Day 3,C9,Ban
-DK,Red,Kaisa,Win,Pick,Rumble Day 3,C9,Adc
-DK,Red,Udyr,Win,Pick,Rumble Day 3,C9,Jungle
-DK,Red,Nautilus,Win,Pick,Rumble Day 3,C9,Support
-DK,Red,Leona,Win,Ban,Rumble Day 3,C9,Ban
-DK,Red,Lucian,Win,Ban,Rumble Day 3,C9,Ban
-DK,Red,Gangplank,Win,Pick,Rumble Day 3,C9,Top
-DK,Red,Viktor,Win,Pick,Rumble Day 3,C9,Mid
-RNG,Blue,Morgana,Win,Ban,Rumble Day 3,PGG,Ban
-RNG,Blue,Renekton,Win,Ban,Rumble Day 3,PGG,Ban
-RNG,Blue,Thresh,Win,Ban,Rumble Day 3,PGG,Ban
-RNG,Blue,Rumble,Win,Pick,Rumble Day 3,PGG,Jungle
-RNG,Blue,Varus,Win,Pick,Rumble Day 3,PGG,Adc
-RNG,Blue,Nautilus,Win,Pick,Rumble Day 3,PGG,Support
-RNG,Blue,Qiyana,Win,Ban,Rumble Day 3,PGG,Ban
-RNG,Blue,Kaisa,Win,Ban,Rumble Day 3,PGG,Ban
-RNG,Blue,Nocturne,Win,Pick,Rumble Day 3,PGG,Jungle
-RNG,Blue,Gragas,Win,Pick,Rumble Day 3,PGG,Top
-PGG,Red,Lucian,Loss,Ban,Rumble Day 3,RNG,Ban
-PGG,Red,Udyr,Loss,Ban,Rumble Day 3,RNG,Ban
-PGG,Red,Lee Sin,Loss,Ban,Rumble Day 3,RNG,Ban
-PGG,Red,Jayce,Loss,Pick,Rumble Day 3,RNG,Top
-PGG,Red,Nidalee,Loss,Pick,Rumble Day 3,RNG,Jungle
-PGG,Red,Leona,Loss,Pick,Rumble Day 3,RNG,Support
-PGG,Red,Sylas,Loss,Ban,Rumble Day 3,RNG,Ban
-PGG,Red,Irelia,Loss,Ban,Rumble Day 3,RNG,Ban
-PGG,Red,Tristana,Loss,Pick,Rumble Day 3,RNG,Adc
-PGG,Red,Akali,Loss,Pick,Rumble Day 3,RNG,Mid
-DK,Blue,Thresh,Win,Ban,Rumble Day 3,MAD,Ban
-DK,Blue,Varus,Win,Ban,Rumble Day 3,MAD,Ban
-DK,Blue,Lucian,Win,Ban,Rumble Day 3,MAD,Ban
-DK,Blue,Kaisa,Win,Pick,Rumble Day 3,MAD,Adc
-DK,Blue,Morgana,Win,Pick,Rumble Day 3,MAD,Jungle
-DK,Blue,Lee Sin,Win,Pick,Rumble Day 3,MAD,Top
-DK,Blue,Gnar,Win,Ban,Rumble Day 3,MAD,Ban
-DK,Blue,Orianna,Win,Ban,Rumble Day 3,MAD,Ban
-DK,Blue,Zoe,Win,Pick,Rumble Day 3,MAD,Mid
-DK,Blue,Sett,Win,Pick,Rumble Day 3,MAD,Support
-MAD,Red,Senna,Loss,Ban,Rumble Day 3,DK,Ban
-MAD,Red,Renekton,Loss,Ban,Rumble Day 3,DK,Ban
-MAD,Red,Leona,Loss,Ban,Rumble Day 3,DK,Ban
-MAD,Red,Nautilus,Loss,Pick,Rumble Day 3,DK,Support
-MAD,Red,Udyr,Loss,Pick,Rumble Day 3,DK,Jungle
-MAD,Red,Tristana,Loss,Pick,Rumble Day 3,DK,Adc
-MAD,Red,Alistar,Loss,Ban,Rumble Day 3,DK,Ban
-MAD,Red,Rell,Loss,Ban,Rumble Day 3,DK,Ban
-MAD,Red,Viktor,Loss,Pick,Rumble Day 3,DK,Mid
-MAD,Red,Shen,Loss,Pick,Rumble Day 3,DK,Top
-RNG,Blue,Thresh,Loss,Ban,Rumble Day 3,PSG,Ban
-RNG,Blue,Renekton,Loss,Ban,Rumble Day 3,PSG,Ban
-RNG,Blue,Senna,Loss,Ban,Rumble Day 3,PSG,Ban
-RNG,Blue,Kaisa,Loss,Pick,Rumble Day 3,PSG,Adc
-RNG,Blue,Rumble,Loss,Pick,Rumble Day 3,PSG,Jungle
-RNG,Blue,Leona,Loss,Pick,Rumble Day 3,PSG,Support
-RNG,Blue,Akali,Loss,Ban,Rumble Day 3,PSG,Ban
-RNG,Blue,Galio,Loss,Ban,Rumble Day 3,PSG,Ban
-RNG,Blue,Gnar,Loss,Pick,Rumble Day 3,PSG,Top
-RNG,Blue,Viktor,Loss,Pick,Rumble Day 3,PSG,Mid
-PSG,Red,Lucian,Win,Ban,Rumble Day 3,RNG,Ban
-PSG,Red,Udyr,Win,Ban,Rumble Day 3,RNG,Ban
-PSG,Red,Varus,Win,Ban,Rumble Day 3,RNG,Ban
-PSG,Red,Nautilus,Win,Pick,Rumble Day 3,RNG,Support
-PSG,Red,Tristana,Win,Pick,Rumble Day 3,RNG,Adc
-PSG,Red,Morgana,Win,Pick,Rumble Day 3,RNG,Jungle
-PSG,Red,Sylas,Win,Ban,Rumble Day 3,RNG,Ban
-PSG,Red,Nocturne,Win,Ban,Rumble Day 3,RNG,Ban
-PSG,Red,Lee Sin,Win,Pick,Rumble Day 3,RNG,Top
-PSG,Red,Zoe,Win,Pick,Rumble Day 3,RNG,Mid
-C9,Blue,Gnar,Win,Ban,Rumble Day 3,PGG,Ban
-C9,Blue,Varus,Win,Ban,Rumble Day 3,PGG,Ban
-C9,Blue,Thresh,Win,Ban,Rumble Day 3,PGG,Ban
-C9,Blue,Udyr,Win,Pick,Rumble Day 3,PGG,Jungle
-C9,Blue,Senna,Win,Pick,Rumble Day 3,PGG,Adc
-C9,Blue,Tahm Kench,Win,Pick,Rumble Day 3,PGG,Support
-C9,Blue,Urgot,Win,Ban,Rumble Day 3,PGG,Ban
-C9,Blue,Sion,Win,Ban,Rumble Day 3,PGG,Ban
-C9,Blue,Jayce,Win,Pick,Rumble Day 3,PGG,Top
-C9,Blue,Zoe,Win,Pick,Rumble Day 3,PGG,Mid
-PGG,Red,Lucian,Loss,Ban,Rumble Day 3,C9,Ban
-PGG,Red,Lee Sin,Loss,Ban,Rumble Day 3,C9,Ban
-PGG,Red,Renekton,Loss,Ban,Rumble Day 3,C9,Ban
-PGG,Red,Nautilus,Loss,Pick,Rumble Day 3,C9,Support
-PGG,Red,Morgana,Loss,Pick,Rumble Day 3,C9,Jungle
-PGG,Red,Samira,Loss,Pick,Rumble Day 3,C9,Adc
-PGG,Red,Sylas,Loss,Ban,Rumble Day 3,C9,Ban
-PGG,Red,Orianna,Loss,Ban,Rumble Day 3,C9,Ban
-PGG,Red,Syndra,Loss,Pick,Rumble Day 3,C9,Mid
-PGG,Red,Yorick,Loss,Pick,Rumble Day 3,C9,Top
-MAD,Blue,Renekton,Win,Ban,Rumble Day 2,PSG,Ban
-MAD,Blue,Thresh,Win,Ban,Rumble Day 2,PSG,Ban
-MAD,Blue,Lee Sin,Win,Ban,Rumble Day 2,PSG,Ban
-MAD,Blue,Rumble,Win,Pick,Rumble Day 2,PSG,Jungle
-MAD,Blue,Tristana,Win,Pick,Rumble Day 2,PSG,Adc
-MAD,Blue,Leona,Win,Pick,Rumble Day 2,PSG,Support
-MAD,Blue,Nocturne,Win,Ban,Rumble Day 2,PSG,Ban
-MAD,Blue,Akali,Win,Ban,Rumble Day 2,PSG,Ban
-MAD,Blue,Jayce,Win,Pick,Rumble Day 2,PSG,Top
-MAD,Blue,Viktor,Win,Pick,Rumble Day 2,PSG,Mid
-PSG,Red,Senna,Loss,Ban,Rumble Day 2,MAD,Ban
-PSG,Red,Lucian,Loss,Ban,Rumble Day 2,MAD,Ban
-PSG,Red,Udyr,Loss,Ban,Rumble Day 2,MAD,Ban
-PSG,Red,Kaisa,Loss,Pick,Rumble Day 2,MAD,Adc
-PSG,Red,Nautilus,Loss,Pick,Rumble Day 2,MAD,Support
-PSG,Red,Morgana,Loss,Pick,Rumble Day 2,MAD,Jungle
-PSG,Red,Wukong,Loss,Ban,Rumble Day 2,MAD,Ban
-PSG,Red,Sylas,Loss,Ban,Rumble Day 2,MAD,Ban
-PSG,Red,Gnar,Loss,Pick,Rumble Day 2,MAD,Top
-PSG,Red,Galio,Loss,Pick,Rumble Day 2,MAD,Mid
-PGG,Blue,Lucian,Loss,Ban,Rumble Day 2,DK,Ban
-PGG,Blue,Renekton,Loss,Ban,Rumble Day 2,DK,Ban
-PGG,Blue,Sylas,Loss,Ban,Rumble Day 2,DK,Ban
-PGG,Blue,Lee Sin,Loss,Pick,Rumble Day 2,DK,Mid
-PGG,Blue,Rumble,Loss,Pick,Rumble Day 2,DK,Jungle
-PGG,Blue,Gnar,Loss,Pick,Rumble Day 2,DK,Top
-PGG,Blue,Leona,Loss,Ban,Rumble Day 2,DK,Ban
-PGG,Blue,Nocturne,Loss,Ban,Rumble Day 2,DK,Ban
-PGG,Blue,Xayah,Loss,Pick,Rumble Day 2,DK,Adc
-PGG,Blue,Alistar,Loss,Pick,Rumble Day 2,DK,Support
-DK,Red,Thresh,Win,Ban,Rumble Day 2,PGG,Ban
-DK,Red,Varus,Win,Ban,Rumble Day 2,PGG,Ban
-DK,Red,Morgana,Win,Ban,Rumble Day 2,PGG,Ban
-DK,Red,Kaisa,Win,Pick,Rumble Day 2,PGG,Adc
-DK,Red,Udyr,Win,Pick,Rumble Day 2,PGG,Jungle
-DK,Red,Jayce,Win,Pick,Rumble Day 2,PGG,Top
-DK,Red,Senna,Win,Ban,Rumble Day 2,PGG,Ban
-DK,Red,Samira,Win,Ban,Rumble Day 2,PGG,Ban
-DK,Red,Nautilus,Win,Pick,Rumble Day 2,PGG,Support
-DK,Red,Zoe,Win,Pick,Rumble Day 2,PGG,Mid
-C9,Blue,Gnar,Loss,Ban,Rumble Day 2,PSG,Ban
-C9,Blue,Varus,Loss,Ban,Rumble Day 2,PSG,Ban
-C9,Blue,Thresh,Loss,Ban,Rumble Day 2,PSG,Ban
-C9,Blue,Udyr,Loss,Pick,Rumble Day 2,PSG,Jungle
-C9,Blue,Viktor,Loss,Pick,Rumble Day 2,PSG,Mid
-C9,Blue,Sett,Loss,Pick,Rumble Day 2,PSG,Top
-C9,Blue,Nautilus,Loss,Ban,Rumble Day 2,PSG,Ban
-C9,Blue,Blitzcrank,Loss,Ban,Rumble Day 2,PSG,Ban
-C9,Blue,Kog Maw,Loss,Pick,Rumble Day 2,PSG,Adc
-C9,Blue,Lulu,Loss,Pick,Rumble Day 2,PSG,Support
-PSG,Red,Renekton,Win,Ban,Rumble Day 2,C9,Ban
-PSG,Red,Tristana,Win,Ban,Rumble Day 2,C9,Ban
-PSG,Red,Senna,Win,Ban,Rumble Day 2,C9,Ban
-PSG,Red,Kaisa,Win,Pick,Rumble Day 2,C9,Adc
-PSG,Red,Lee Sin,Win,Pick,Rumble Day 2,C9,Top
-PSG,Red,Morgana,Win,Pick,Rumble Day 2,C9,Jungle
-PSG,Red,Kalista,Win,Ban,Rumble Day 2,C9,Ban
-PSG,Red,Alistar,Win,Ban,Rumble Day 2,C9,Ban
-PSG,Red,Leona,Win,Pick,Rumble Day 2,C9,Support
-PSG,Red,Akali,Win,Pick,Rumble Day 2,C9,Mid
-MAD,Blue,Renekton,Loss,Ban,Rumble Day 2,RNG,Ban
-MAD,Blue,Kaisa,Loss,Ban,Rumble Day 2,RNG,Ban
-MAD,Blue,Udyr,Loss,Ban,Rumble Day 2,RNG,Ban
-MAD,Blue,Morgana,Loss,Pick,Rumble Day 2,RNG,Jungle
-MAD,Blue,Jinx,Loss,Pick,Rumble Day 2,RNG,Adc
-MAD,Blue,Tahm Kench,Loss,Pick,Rumble Day 2,RNG,Support
-MAD,Blue,Jayce,Loss,Ban,Rumble Day 2,RNG,Ban
-MAD,Blue,Lee Sin,Loss,Ban,Rumble Day 2,RNG,Ban
-MAD,Blue,Orianna,Loss,Pick,Rumble Day 2,RNG,Mid
-MAD,Blue,Wukong,Loss,Pick,Rumble Day 2,RNG,Top
-RNG,Red,Senna,Win,Ban,Rumble Day 2,MAD,Ban
-RNG,Red,Varus,Win,Ban,Rumble Day 2,MAD,Ban
-RNG,Red,Rumble,Win,Ban,Rumble Day 2,MAD,Ban
-RNG,Red,Thresh,Win,Pick,Rumble Day 2,MAD,Support
-RNG,Red,Olaf,Win,Pick,Rumble Day 2,MAD,Jungle
-RNG,Red,Aphelios,Win,Pick,Rumble Day 2,MAD,Adc
-RNG,Red,Lucian,Win,Ban,Rumble Day 2,MAD,Ban
-RNG,Red,Viktor,Win,Ban,Rumble Day 2,MAD,Ban
-RNG,Red,Gnar,Win,Pick,Rumble Day 2,MAD,Top
-RNG,Red,Twisted Fate,Win,Pick,Rumble Day 2,MAD,Mid
-DK,Blue,Thresh,Win,Ban,Rumble Day 2,C9,Ban
-DK,Blue,Renekton,Win,Ban,Rumble Day 2,C9,Ban
-DK,Blue,Lee Sin,Win,Ban,Rumble Day 2,C9,Ban
-DK,Blue,Senna,Win,Pick,Rumble Day 2,C9,Adc
-DK,Blue,Rumble,Win,Pick,Rumble Day 2,C9,Jungle
-DK,Blue,Tahm Kench,Win,Pick,Rumble Day 2,C9,Support
-DK,Blue,Orianna,Win,Ban,Rumble Day 2,C9,Ban
-DK,Blue,Nocturne,Win,Ban,Rumble Day 2,C9,Ban
-DK,Blue,Syndra,Win,Pick,Rumble Day 2,C9,Mid
-DK,Blue,Sion,Win,Pick,Rumble Day 2,C9,Top
-C9,Red,Gnar,Loss,Ban,Rumble Day 2,DK,Ban
-C9,Red,Varus,Loss,Ban,Rumble Day 2,DK,Ban
-C9,Red,Nautilus,Loss,Ban,Rumble Day 2,DK,Ban
-C9,Red,Udyr,Loss,Pick,Rumble Day 2,DK,Jungle
-C9,Red,Ashe,Loss,Pick,Rumble Day 2,DK,Ban
-C9,Red,Lulu,Loss,Pick,Rumble Day 2,DK,Support
-C9,Red,Viktor,Loss,Ban,Rumble Day 2,DK,Ban
-C9,Red,Jayce,Loss,Ban,Rumble Day 2,DK,Ban
-C9,Red,Lucian,Loss,Pick,Rumble Day 2,DK,Mid
-C9,Red,Karma,Loss,Pick,Rumble Day 2,DK,Top
-PGG,Blue,Lucian,Loss,Ban,Rumble Day 2,RNG,Ban
-PGG,Blue,Renekton,Loss,Ban,Rumble Day 2,RNG,Ban
-PGG,Blue,Nautilus,Loss,Ban,Rumble Day 2,RNG,Ban
-PGG,Blue,Lee Sin,Loss,Pick,Rumble Day 2,RNG,Mid
-PGG,Blue,Aphelios,Loss,Pick,Rumble Day 2,RNG,Adc
-PGG,Blue,Lulu,Loss,Pick,Rumble Day 2,RNG,Support
-PGG,Blue,Sett,Loss,Ban,Rumble Day 2,RNG,Ban
-PGG,Blue,Orianna,Loss,Ban,Rumble Day 2,RNG,Ban
-PGG,Blue,Sion,Loss,Pick,Rumble Day 2,RNG,Top
-PGG,Blue,Olaf,Loss,Pick,Rumble Day 2,RNG,Jungle
-RNG,Red,Morgana,Win,Ban,Rumble Day 2,PGG,Ban
-RNG,Red,Varus,Win,Ban,Rumble Day 2,PGG,Ban
-RNG,Red,Qiyana,Win,Ban,Rumble Day 2,PGG,Ban
-RNG,Red,Udyr,Win,Pick,Rumble Day 2,PGG,Jungle
-RNG,Red,Kog Maw,Win,Pick,Rumble Day 2,PGG,Adc
-RNG,Red,Karma,Win,Pick,Rumble Day 2,PGG,Support
-RNG,Red,Rumble,Win,Ban,Rumble Day 2,PGG,Ban
-RNG,Red,Urgot,Win,Ban,Rumble Day 2,PGG,Ban
-RNG,Red,Jayce,Win,Pick,Rumble Day 2,PGG,Top
-RNG,Red,Sylas,Win,Pick,Rumble Day 2,PGG,Mid
-C9,Blue,Gnar,Loss,Ban,Rumble Day 1,MAD,Ban
-C9,Blue,Varus,Loss,Ban,Rumble Day 1,MAD,Ban
-C9,Blue,Thresh,Loss,Ban,Rumble Day 1,MAD,Ban
-C9,Blue,Rumble,Loss,Pick,Rumble Day 1,MAD,Jungle
-C9,Blue,Kalista,Loss,Pick,Rumble Day 1,MAD,Adc
-C9,Blue,Nautilus,Loss,Pick,Rumble Day 1,MAD,Support
-C9,Blue,Karma,Loss,Ban,Rumble Day 1,MAD,Ban
-C9,Blue,Alistar,Loss,Ban,Rumble Day 1,MAD,Ban
-C9,Blue,Sion,Loss,Pick,Rumble Day 1,MAD,Top
-C9,Blue,Kindred,Loss,Pick,Rumble Day 1,MAD,Mid
-MAD,Red,Renekton,Win,Ban,Rumble Day 1,C9,Ban
-MAD,Red,Lee Sin,Win,Ban,Rumble Day 1,C9,Ban
-MAD,Red,Senna,Win,Ban,Rumble Day 1,C9,Ban
-MAD,Red,Kaisa,Win,Pick,Rumble Day 1,C9,Adc
-MAD,Red,Lucian,Win,Pick,Rumble Day 1,C9,Mid
-MAD,Red,Udyr,Win,Pick,Rumble Day 1,C9,Jungle
-MAD,Red,Viktor,Win,Ban,Rumble Day 1,C9,Ban
-MAD,Red,Tristana,Win,Ban,Rumble Day 1,C9,Ban
-MAD,Red,Leona,Win,Pick,Rumble Day 1,C9,Support
-MAD,Red,Sylas,Win,Pick,Rumble Day 1,C9,Top
-PSG,Blue,Lee Sin,Win,Ban,Rumble Day 1,PGG,Ban
-PSG,Blue,Nidalee,Win,Ban,Rumble Day 1,PGG,Ban
-PSG,Blue,Urgot,Win,Ban,Rumble Day 1,PGG,Ban
-PSG,Blue,Udyr,Win,Pick,Rumble Day 1,PGG,Jungle
-PSG,Blue,Thresh,Win,Pick,Rumble Day 1,PGG,Support
-PSG,Blue,Aphelios,Win,Pick,Rumble Day 1,PGG,Adc
-PSG,Blue,Nocturne,Win,Ban,Rumble Day 1,PGG,Ban
-PSG,Blue,Qiyana,Win,Ban,Rumble Day 1,PGG,Ban
-PSG,Blue,Aatrox,Win,Pick,Rumble Day 1,PGG,Top
-PSG,Blue,Sylas,Win,Pick,Rumble Day 1,PGG,Mid
-PGG,Red,Renekton,Loss,Ban,Rumble Day 1,PSG,Ban
-PGG,Red,Lucian,Loss,Ban,Rumble Day 1,PSG,Ban
-PGG,Red,Gnar,Loss,Ban,Rumble Day 1,PSG,Ban
-PGG,Red,Kaisa,Loss,Pick,Rumble Day 1,PSG,Adc
-PGG,Red,Morgana,Loss,Pick,Rumble Day 1,PSG,Jungle
-PGG,Red,Nautilus,Loss,Pick,Rumble Day 1,PSG,Support
-PGG,Red,Jayce,Loss,Ban,Rumble Day 1,PSG,Ban
-PGG,Red,Sett,Loss,Ban,Rumble Day 1,PSG,Ban
-PGG,Red,Sion,Loss,Pick,Rumble Day 1,PSG,Top
-PGG,Red,Zed,Loss,Pick,Rumble Day 1,PSG,Mid
-RNG,Blue,Senna,Win,Ban,Rumble Day 1,C9,Ban
-RNG,Blue,Renekton,Win,Ban,Rumble Day 1,C9,Ban
-RNG,Blue,Thresh,Win,Ban,Rumble Day 1,C9,Ban
-RNG,Blue,Udyr,Win,Pick,Rumble Day 1,C9,Jungle
-RNG,Blue,Lucian,Win,Pick,Rumble Day 1,C9,Top
-RNG,Blue,Kaisa,Win,Pick,Rumble Day 1,C9,Adc
-RNG,Blue,Alistar,Win,Ban,Rumble Day 1,C9,Ban
-RNG,Blue,Galio,Win,Ban,Rumble Day 1,C9,Ban
-RNG,Blue,Gragas,Win,Pick,Rumble Day 1,C9,Support
-RNG,Blue,Orianna,Win,Pick,Rumble Day 1,C9,Mid
-C9,Red,Gnar,Loss,Ban,Rumble Day 1,RNG,Ban
-C9,Red,Varus,Loss,Ban,Rumble Day 1,RNG,Ban
-C9,Red,Nautilus,Loss,Ban,Rumble Day 1,RNG,Ban
-C9,Red,Lee Sin,Loss,Pick,Rumble Day 1,RNG,Mid
-C9,Red,Tristana,Loss,Pick,Rumble Day 1,RNG,Adc
-C9,Red,Morgana,Loss,Pick,Rumble Day 1,RNG,Jungle
-C9,Red,Leona,Loss,Ban,Rumble Day 1,RNG,Ban
-C9,Red,Sett,Loss,Ban,Rumble Day 1,RNG,Ban
-C9,Red,Rell,Loss,Pick,Rumble Day 1,RNG,Support
-C9,Red,Malphite,Loss,Pick,Rumble Day 1,RNG,Top
-PSG,Blue,Senna,Loss,Ban,Rumble Day 1,DK,Ban
-PSG,Blue,Lee Sin,Loss,Ban,Rumble Day 1,DK,Ban
-PSG,Blue,Lucian,Loss,Ban,Rumble Day 1,DK,Ban
-PSG,Blue,Udyr,Loss,Pick,Rumble Day 1,DK,Jungle
-PSG,Blue,Gnar,Loss,Pick,Rumble Day 1,DK,Top
-PSG,Blue,Tristana,Loss,Pick,Rumble Day 1,DK,Adc
-PSG,Blue,Nautilus,Loss,Ban,Rumble Day 1,DK,Ban
-PSG,Blue,Alistar,Loss,Ban,Rumble Day 1,DK,Ban
-PSG,Blue,Akali,Loss,Pick,Rumble Day 1,DK,Mid
-PSG,Blue,Rakan,Loss,Pick,Rumble Day 1,DK,Support
-DK,Red,Nautilus,Win,Ban,Rumble Day 1,PSG,Ban
-DK,Red,Varus,Win,Ban,Rumble Day 1,PSG,Ban
-DK,Red,Renekton,Win,Ban,Rumble Day 1,PSG,Ban
-DK,Red,Kaisa,Win,Pick,Rumble Day 1,PSG,Adc
-DK,Red,Morgana,Win,Pick,Rumble Day 1,PSG,Jungle
-DK,Red,Sion,Win,Pick,Rumble Day 1,PSG,Top
-DK,Red,Orianna,Win,Ban,Rumble Day 1,PSG,Ban
-DK,Red,Zoe,Win,Ban,Rumble Day 1,PSG,Ban
-DK,Red,Leona,Win,Pick,Rumble Day 1,PSG,Support
-DK,Red,Sylas,Win,Pick,Rumble Day 1,PSG,Mid
-MAD,Blue,Renekton,Win,Ban,Rumble Day 1,PGG,Ban
-MAD,Blue,Thresh,Win,Ban,Rumble Day 1,PGG,Ban
-MAD,Blue,Fiddlesticks,Win,Ban,Rumble Day 1,PGG,Ban
-MAD,Blue,Rumble,Win,Pick,Rumble Day 1,PGG,Jungle
-MAD,Blue,Orianna,Win,Pick,Rumble Day 1,PGG,Mid
-MAD,Blue,Gnar,Win,Pick,Rumble Day 1,PGG,Top
-MAD,Blue,Viktor,Win,Ban,Rumble Day 1,PGG,Ban
-MAD,Blue,Nautilus,Win,Ban,Rumble Day 1,PGG,Ban
-MAD,Blue,Vayne,Win,Pick,Rumble Day 1,PGG,Adc
-MAD,Blue,Leona,Win,Pick,Rumble Day 1,PGG,Support
-PGG,Red,Lucian,Loss,Ban,Rumble Day 1,MAD,Ban
-PGG,Red,Lee Sin,Loss,Ban,Rumble Day 1,MAD,Ban
-PGG,Red,Senna,Loss,Ban,Rumble Day 1,MAD,Ban
-PGG,Red,Kaisa,Loss,Pick,Rumble Day 1,MAD,Adc
-PGG,Red,Udyr,Loss,Pick,Rumble Day 1,MAD,Jungle
-PGG,Red,Urgot,Loss,Pick,Rumble Day 1,MAD,Top
-PGG,Red,Tristana,Loss,Ban,Rumble Day 1,MAD,Ban
-PGG,Red,Lulu,Loss,Ban,Rumble Day 1,MAD,Ban
-PGG,Red,Kassadin,Loss,Pick,Rumble Day 1,MAD,Mid
-PGG,Red,Galio,Loss,Pick,Rumble Day 1,MAD,Support
-DK,Blue,Renekton,Loss,Ban,Rumble Day 1,RNG,Ban
-DK,Blue,Thresh,Loss,Ban,Rumble Day 1,RNG,Ban
-DK,Blue,Varus,Loss,Ban,Rumble Day 1,RNG,Ban
-DK,Blue,Udyr,Loss,Pick,Rumble Day 1,RNG,Jungle
-DK,Blue,Tristana,Loss,Pick,Rumble Day 1,RNG,Adc
-DK,Blue,Lucian,Loss,Pick,Rumble Day 1,RNG,Mid
-DK,Blue,Viktor,Loss,Ban,Rumble Day 1,RNG,Ban
-DK,Blue,Lee Sin,Loss,Ban,Rumble Day 1,RNG,Ban
-DK,Blue,Sett,Loss,Pick,Rumble Day 1,RNG,Support
-DK,Blue,Sion,Loss,Pick,Rumble Day 1,RNG,Top
-RNG,Red,Senna,Win,Ban,Rumble Day 1,DK,Ban
-RNG,Red,Morgana,Win,Ban,Rumble Day 1,DK,Ban
-RNG,Red,Rumble,Win,Ban,Rumble Day 1,DK,Ban
-RNG,Red,Kaisa,Win,Pick,Rumble Day 1,DK,Adc
-RNG,Red,Nautilus,Win,Pick,Rumble Day 1,DK,Support
-RNG,Red,Olaf,Win,Pick,Rumble Day 1,DK,Jungle
-RNG,Red,Leona,Win,Ban,Rumble Day 1,DK,Ban
-RNG,Red,Alistar,Win,Ban,Rumble Day 1,DK,Ban
-RNG,Red,Gragas,Win,Pick,Rumble Day 1,DK,Top
-RNG,Red,Orianna,Win,Pick,Rumble Day 1,DK,Mid
+﻿Team,Side,Champion,GameResult,Pick/Ban,Day,TeamVS,Role,Blind?
+RNG,Blue,Zoe,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Senna,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Thresh,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Udyr,Win,Pick,Finals,DK,Jungle,B
+RNG,Blue,Kaisa,Win,Pick,Finals,DK,Adc,C
+RNG,Blue,Nocturne,Win,Pick,Finals,DK,Mid,B
+RNG,Blue,Sylas,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Gnar,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Gragas,Win,Pick,Finals,DK,Top,B
+RNG,Blue,Leona,Win,Pick,Finals,DK,Support,C
+DK,Red,Renekton,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Lee Sin,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Lucian,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Varus,Loss,Pick,Finals,RNG,Adc,B
+DK,Red,Rumble,Loss,Pick,Finals,RNG,Jungle,C
+DK,Red,Tahm Kench,Loss,Pick,Finals,RNG,Support,B
+DK,Red,Nautilus,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Rell,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Jayce,Loss,Pick,Finals,RNG,Mid,C
+DK,Red,Aatrox,Loss,Pick,Finals,RNG,Top,C
+DK,Blue,Thresh,Win,Ban,Finals,RNG,Ban,Ban
+DK,Blue,Lucian,Win,Ban,Finals,RNG,Ban,Ban
+DK,Blue,Varus,Win,Ban,Finals,RNG,Ban,Ban
+DK,Blue,Renekton,Win,Pick,Finals,RNG,Mid,B
+DK,Blue,Nidalee,Win,Pick,Finals,RNG,Jungle,B
+DK,Blue,Tristana,Win,Pick,Finals,RNG,Adc,C
+DK,Blue,Nautilus,Win,Ban,Finals,RNG,Ban,Ban
+DK,Blue,Orianna,Win,Ban,Finals,RNG,Ban,Ban
+DK,Blue,Aatrox,Win,Pick,Finals,RNG,Top,C
+DK,Blue,Rell,Win,Pick,Finals,RNG,Support,C
+RNG,Red,Zoe,Loss,Ban,Finals,DK,Ban,Ban
+RNG,Red,Senna,Loss,Ban,Finals,DK,Ban,Ban
+RNG,Red,Lee Sin,Loss,Ban,Finals,DK,Ban,Ban
+RNG,Red,Gragas,Loss,Pick,Finals,DK,Top,C
+RNG,Red,Kaisa,Loss,Pick,Finals,DK,Adc,B
+RNG,Red,Udyr,Loss,Pick,Finals,DK,Jungle,C
+RNG,Red,Gnar,Loss,Ban,Finals,DK,Ban,Ban
+RNG,Red,Sylas,Loss,Ban,Finals,DK,Ban,Ban
+RNG,Red,Leona,Loss,Pick,Finals,DK,Support,B
+RNG,Red,Ryze,Loss,Pick,Finals,DK,Mid,C
+RNG,Blue,Zoe,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Senna,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Varus,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Udyr,Win,Pick,Finals,DK,Jungle,B
+RNG,Blue,Kaisa,Win,Pick,Finals,DK,Adc,C
+RNG,Blue,Gnar,Win,Pick,Finals,DK,Top,B
+RNG,Blue,Gangplank,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Sion,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Leona,Win,Pick,Finals,DK,Support,C
+RNG,Blue,Ryze,Win,Pick,Finals,DK,Mid,B
+DK,Red,Renekton,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Lee Sin,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Lucian,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Thresh,Loss,Pick,Finals,RNG,Support,B
+DK,Red,Jinx,Loss,Pick,Finals,RNG,Adc,B
+DK,Red,Morgana,Loss,Pick,Finals,RNG,Jungle,C
+DK,Red,Nautilus,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Orianna,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Nocturne,Loss,Pick,Finals,RNG,Top,C
+DK,Red,Syndra,Loss,Pick,Finals,RNG,Mid,C
+DK,Blue,Thresh,Win,Ban,Finals,RNG,Ban,Ban
+DK,Blue,Lucian,Win,Ban,Finals,RNG,Ban,Ban
+DK,Blue,Varus,Win,Ban,Finals,RNG,Ban,Ban
+DK,Blue,Lee Sin,Win,Pick,Finals,RNG,Top,B
+DK,Blue,Morgana,Win,Pick,Finals,RNG,Jungle,C
+DK,Blue,Tristana,Win,Pick,Finals,RNG,Adc,C
+DK,Blue,Nautilus,Win,Ban,Finals,RNG,Ban,Ban
+DK,Blue,Ryze,Win,Ban,Finals,RNG,Ban,Ban
+DK,Blue,Leona,Win,Pick,Finals,RNG,Support,B
+DK,Blue,Xerath,Win,Pick,Finals,RNG,Mid,C
+RNG,Red,Zoe,Loss,Ban,Finals,DK,Ban,Ban
+RNG,Red,Senna,Loss,Ban,Finals,DK,Ban,Ban
+RNG,Red,Renekton,Loss,Ban,Finals,DK,Ban,Ban
+RNG,Red,Udyr,Loss,Pick,Finals,DK,Jungle,B
+RNG,Red,Kaisa,Loss,Pick,Finals,DK,Adc,B
+RNG,Red,Jayce,Loss,Pick,Finals,DK,Top,C
+RNG,Red,Sylas,Loss,Ban,Finals,DK,Ban,Ban
+RNG,Red,Syndra,Loss,Ban,Finals,DK,Ban,Ban
+RNG,Red,Orianna,Loss,Pick,Finals,DK,Mid,B
+RNG,Red,Rell,Loss,Pick,Finals,DK,Support,C
+RNG,Blue,Zoe,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Senna,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Varus,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Lucian,Win,Pick,Finals,DK,Mid,B
+RNG,Blue,Udyr,Win,Pick,Finals,DK,Jungle,C
+RNG,Blue,Kaisa,Win,Pick,Finals,DK,Adc,C
+RNG,Blue,Syndra,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Viktor,Win,Ban,Finals,DK,Ban,Ban
+RNG,Blue,Gragas,Win,Pick,Finals,DK,Top,C
+RNG,Blue,Nautilus,Win,Pick,Finals,DK,Support,C
+DK,Red,Thresh,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Renekton,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Lee Sin,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Tristana,Loss,Pick,Finals,RNG,Adc,B
+DK,Red,Morgana,Loss,Pick,Finals,RNG,Jungle,B
+DK,Red,Sion,Loss,Pick,Finals,RNG,Top,B
+DK,Red,Orianna,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Nocturne,Loss,Ban,Finals,RNG,Ban,Ban
+DK,Red,Leona,Loss,Pick,Finals,RNG,Support,B
+DK,Red,Akali,Loss,Pick,Finals,RNG,Mid,C
+MAD,Blue,Renekton,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Blue,Morgana,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Blue,Tahm Kench,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Blue,Udyr,Loss,Pick,Semifinals,DK,Jungle,B
+MAD,Blue,Kaisa,Loss,Pick,Semifinals,DK,Adc,C
+MAD,Blue,Leona,Loss,Pick,Semifinals,DK,Support,B
+MAD,Blue,Sion,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Blue,Rell,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Blue,Sylas,Loss,Pick,Semifinals,DK,Mid,C
+MAD,Blue,Gnar,Loss,Pick,Semifinals,DK,Top,B
+DK,Red,Thresh,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Red,Lee Sin,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Red,Lucian,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Red,Tristana,Win,Pick,Semifinals,MAD,Adc,B
+DK,Red,Rumble,Win,Pick,Semifinals,MAD,Jungle,C
+DK,Red,Zoe,Win,Pick,Semifinals,MAD,Mid,B
+DK,Red,Twisted Fate,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Red,Orianna,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Red,Alistar,Win,Pick,Semifinals,MAD,Support,C
+DK,Red,Jayce,Win,Pick,Semifinals,MAD,Top,C
+DK,Blue,Thresh,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Lucian,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Varus,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Lee Sin,Win,Pick,Semifinals,MAD,Top,B
+DK,Blue,Rumble,Win,Pick,Semifinals,MAD,Jungle,C
+DK,Blue,Tristana,Win,Pick,Semifinals,MAD,Adc,C
+DK,Blue,Orianna,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Ryze,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Sylas,Win,Pick,Semifinals,MAD,Mid,B
+DK,Blue,Rell,Win,Pick,Semifinals,MAD,Support,C
+MAD,Red,Renekton,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Tahm Kench,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Morgana,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Kaisa,Loss,Pick,Semifinals,DK,Adc,B
+MAD,Red,Udyr,Loss,Pick,Semifinals,DK,Jungle,B
+MAD,Red,Gnar,Loss,Pick,Semifinals,DK,Top,C
+MAD,Red,Zoe,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Jayce,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Leona,Loss,Pick,Semifinals,DK,Support,B
+MAD,Red,Viktor,Loss,Pick,Semifinals,DK,Mid,C
+DK,Blue,Lucian,Loss,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Lee Sin,Loss,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Thresh,Loss,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Varus,Loss,Pick,Semifinals,MAD,Adc,B
+DK,Blue,Rumble,Loss,Pick,Semifinals,MAD,Jungle,C
+DK,Blue,Nautilus,Loss,Pick,Semifinals,MAD,Support,C
+DK,Blue,Sylas,Loss,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Twisted Fate,Loss,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Gnar,Loss,Pick,Semifinals,MAD,Top,B
+DK,Blue,Jayce,Loss,Pick,Semifinals,MAD,Mid,C
+MAD,Red,Renekton,Win,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Tahm Kench,Win,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Morgana,Win,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Udyr,Win,Pick,Semifinals,DK,Jungle,B
+MAD,Red,Leona,Win,Pick,Semifinals,DK,Support,B
+MAD,Red,Kaisa,Win,Pick,Semifinals,DK,Adc,C
+MAD,Red,Sion,Win,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Zoe,Win,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Orianna,Win,Pick,Semifinals,DK,Mid,B
+MAD,Red,Wukong,Win,Pick,Semifinals,DK,Top,C
+MAD,Blue,Renekton,Win,Ban,Semifinals,DK,Ban,Ban
+MAD,Blue,Morgana,Win,Ban,Semifinals,DK,Ban,Ban
+MAD,Blue,Varus,Win,Ban,Semifinals,DK,Ban,Ban
+MAD,Blue,Lee Sin,Win,Pick,Semifinals,DK,Top,B
+MAD,Blue,Volibear,Win,Pick,Semifinals,DK,Jungle,C
+MAD,Blue,Xayah,Win,Pick,Semifinals,DK,Adc,B
+MAD,Blue,Zoe,Win,Ban,Semifinals,DK,Ban,Ban
+MAD,Blue,Leona,Win,Ban,Semifinals,DK,Ban,Ban
+MAD,Blue,Braum,Win,Pick,Semifinals,DK,Support,C
+MAD,Blue,Sylas,Win,Pick,Semifinals,DK,Mid,B
+DK,Red,Lucian,Loss,Ban,Semifinals,MAD,Ban,Ban
+DK,Red,Thresh,Loss,Ban,Semifinals,MAD,Ban,Ban
+DK,Red,Senna,Loss,Ban,Semifinals,MAD,Ban,Ban
+DK,Red,Kaisa,Loss,Pick,Semifinals,MAD,Adc,B
+DK,Red,Udyr,Loss,Pick,Semifinals,MAD,Jungle,B
+DK,Red,Gnar,Loss,Pick,Semifinals,MAD,Top,C
+DK,Red,Twisted Fate,Loss,Ban,Semifinals,MAD,Ban,Ban
+DK,Red,Orianna,Loss,Ban,Semifinals,MAD,Ban,Ban
+DK,Red,Nautilus,Loss,Pick,Semifinals,MAD,Support,B
+DK,Red,Viktor,Loss,Pick,Semifinals,MAD,Mid,C
+DK,Blue,Lucian,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Lee Sin,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Thresh,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Varus,Win,Pick,Semifinals,MAD,Adc,B
+DK,Blue,Rumble,Win,Pick,Semifinals,MAD,Jungle,C
+DK,Blue,Tahm Kench,Win,Pick,Semifinals,MAD,Support,B
+DK,Blue,Nautilus,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Wukong,Win,Ban,Semifinals,MAD,Ban,Ban
+DK,Blue,Yone,Win,Pick,Semifinals,MAD,Mid,C
+DK,Blue,Ornn,Win,Pick,Semifinals,MAD,Top,C
+MAD,Red,Renekton,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Senna,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Morgana,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Udyr,Loss,Pick,Semifinals,DK,Jungle,B
+MAD,Red,Kaisa,Loss,Pick,Semifinals,DK,Adc,C
+MAD,Red,Zoe,Loss,Pick,Semifinals,DK,Mid,B
+MAD,Red,Orianna,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Sion,Loss,Ban,Semifinals,DK,Ban,Ban
+MAD,Red,Jayce,Loss,Pick,Semifinals,DK,Top,B
+MAD,Red,Rell,Loss,Pick,Semifinals,DK,Support,C
+PSG,Blue,Lucian,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Blue,Varus,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Blue,Lee Sin,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Blue,Udyr,Loss,Pick,Semifinals,RNG,Jungle,B
+PSG,Blue,Tristana,Loss,Pick,Semifinals,RNG,Adc,B
+PSG,Blue,Rell,Loss,Pick,Semifinals,RNG,Support,C
+PSG,Blue,Nocturne,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Blue,Jayce,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Blue,Sylas,Loss,Pick,Semifinals,RNG,Mid,B
+PSG,Blue,Gangplank,Loss,Pick,Semifinals,RNG,Top,C
+RNG,Red,Zoe,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Red,Renekton,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Red,Thresh,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Red,Nautilus,Win,Pick,Semifinals,PSG,Support,B
+RNG,Red,Morgana,Win,Pick,Semifinals,PSG,Jungle,C
+RNG,Red,Kaisa,Win,Pick,Semifinals,PSG,Adc,C
+RNG,Red,Ryze,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Red,Galio,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Red,Gnar,Win,Pick,Semifinals,PSG,Top,B
+RNG,Red,Orianna,Win,Pick,Semifinals,PSG,Mid,C
+RNG,Blue,Zoe,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Blue,Thresh,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Blue,Nocturne,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Blue,Lee Sin,Win,Pick,Semifinals,PSG,Top,B
+RNG,Blue,Morgana,Win,Pick,Semifinals,PSG,Jungle,C
+RNG,Blue,Kaisa,Win,Pick,Semifinals,PSG,Adc,C
+RNG,Blue,Galio,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Blue,Gnar,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Blue,Orianna,Win,Pick,Semifinals,PSG,Mid,B
+RNG,Blue,Braum,Win,Pick,Semifinals,PSG,Support,C
+PSG,Red,Varus,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Red,Lucain,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Red,Renekton,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Red,Udyr,Loss,Pick,Semifinals,RNG,Jungle,B
+PSG,Red,Tristana,Loss,Pick,Semifinals,RNG,Adc,B
+PSG,Red,Nautilus,Loss,Pick,Semifinals,RNG,Support,B
+PSG,Red,Leona,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Red,Rell,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Red,Aatrox,Loss,Pick,Semifinals,RNG,Top,C
+PSG,Red,Viktor,Loss,Pick,Semifinals,RNG,Mid,C
+PSG,Blue,Lucian,Win,Ban,Semifinals,RNG,Ban,Ban
+PSG,Blue,Varus,Win,Ban,Semifinals,RNG,Ban,Ban
+PSG,Blue,Lee Sin,Win,Ban,Semifinals,RNG,Ban,Ban
+PSG,Blue,Udyr,Win,Pick,Semifinals,RNG,Jungle,B
+PSG,Blue,Tristana,Win,Pick,Semifinals,RNG,Adc,C
+PSG,Blue,Nautilus,Win,Pick,Semifinals,RNG,Support,B
+PSG,Blue,Leona,Win,Ban,Semifinals,RNG,Ban,Ban
+PSG,Blue,Rell,Win,Ban,Semifinals,RNG,Ban,Ban
+PSG,Blue,Nocturne,Win,Pick,Semifinals,RNG,Top,C
+PSG,Blue,Sylas,Win,Pick,Semifinals,RNG,Mid,B
+RNG,Red,Zoe,Loss,Ban,Semifinals,PSG,Ban,Ban
+RNG,Red,Renekton,Loss,Ban,Semifinals,PSG,Ban,Ban
+RNG,Red,Thresh,Loss,Ban,Semifinals,PSG,Ban,Ban
+RNG,Red,Kaisa,Loss,Pick,Semifinals,PSG,Adc,B
+RNG,Red,Morgana,Loss,Pick,Semifinals,PSG,Jungle,C
+RNG,Red,Gnar,Loss,Pick,Semifinals,PSG,Top,B
+RNG,Red,Gangplank,Loss,Ban,Semifinals,PSG,Ban,Ban
+RNG,Red,Jayce,Loss,Ban,Semifinals,PSG,Ban,Ban
+RNG,Red,Braum,Loss,Pick,Semifinals,PSG,Support,C
+RNG,Red,Viktor,Loss,Pick,Semifinals,PSG,Mid,C
+RNG,Blue,Zoe,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Blue,Thresh,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Blue,Nocturne,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Blue,Lee Sin,Win,Pick,Semifinals,PSG,Top,B
+RNG,Blue,Morgana,Win,Pick,Semifinals,PSG,Jungle,C
+RNG,Blue,Tristana,Win,Pick,Semifinals,PSG,Adc,C
+RNG,Blue,Galio,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Blue,Nautilus,Win,Ban,Semifinals,PSG,Ban,Ban
+RNG,Blue,Braum,Win,Pick,Semifinals,PSG,Support,C
+RNG,Blue,Orianna,Win,Pick,Semifinals,PSG,Mid,B
+PSG,Red,Varus,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Red,Lucian,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Red,Renekton,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Red,Udyr,Loss,Pick,Semifinals,RNG,Jungle,B
+PSG,Red,Kaisa,Loss,Pick,Semifinals,RNG,Adc,B
+PSG,Red,Gnar,Loss,Pick,Semifinals,RNG,Top,C
+PSG,Red,Twisted Fate,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Red,Rell,Loss,Ban,Semifinals,RNG,Ban,Ban
+PSG,Red,Leona,Loss,Pick,Semifinals,RNG,Support,B
+PSG,Red,Azir,Loss,Pick,Semifinals,RNG,Mid,C
+MAD,Blue,Renekton,Loss,Ban,Rumble Day 5,C9,Ban,Ban
+MAD,Blue,Udyr,Loss,Ban,Rumble Day 5,C9,Ban,Ban
+MAD,Blue,Thresh,Loss,Ban,Rumble Day 5,C9,Ban,Ban
+MAD,Blue,Malphite,Loss,Ban,Rumble Day 5,C9,Ban,Ban
+MAD,Blue,Nautilus,Loss,Ban,Rumble Day 5,C9,Ban,Ban
+MAD,Blue,Lucian,Loss,Pick,Rumble Day 5,C9,Mid,B
+MAD,Blue,Rumble,Loss,Pick,Rumble Day 5,C9,Jungle,C
+MAD,Blue,Xayah,Loss,Pick,Rumble Day 5,C9,Adc,C
+MAD,Blue,Jayce,Loss,Pick,Rumble Day 5,C9,Top,B
+MAD,Blue,Rakan,Loss,Pick,Rumble Day 5,C9,Support,C
+C9,Red,Varus,Win,Ban,Rumble Day 5,MAD,Ban,Ban
+C9,Red,Lee Sin,Win,Ban,Rumble Day 5,MAD,Ban,Ban
+C9,Red,Senna,Win,Ban,Rumble Day 5,MAD,Ban,Ban
+C9,Red,Wukong,Win,Ban,Rumble Day 5,MAD,Ban,Ban
+C9,Red,Leona,Win,Ban,Rumble Day 5,MAD,Ban,Ban
+C9,Red,Kaisa,Win,Pick,Rumble Day 5,MAD,Adc,B
+C9,Red,Morgana,Win,Pick,Rumble Day 5,MAD,Jungle,B
+C9,Red,Kalista,Win,Pick,Rumble Day 5,MAD,Mid,C
+C9,Red,Alistar,Win,Pick,Rumble Day 5,MAD,Support,B
+C9,Red,Irelia,Win,Pick,Rumble Day 5,MAD,Top,C
+DK,Blue,Thresh,Win,Ban,Rumble Day 5,PGG,Ban,Ban
+DK,Blue,Varus,Win,Ban,Rumble Day 5,PGG,Ban,Ban
+DK,Blue,Urgot,Win,Ban,Rumble Day 5,PGG,Ban,Ban
+DK,Blue,Qiyana,Win,Ban,Rumble Day 5,PGG,Ban,Ban
+DK,Blue,Sett,Win,Ban,Rumble Day 5,PGG,Ban,Ban
+DK,Blue,Kaisa,Win,Pick,Rumble Day 5,PGG,Adc,B
+DK,Blue,Morgana,Win,Pick,Rumble Day 5,PGG,Jungle,C
+DK,Blue,Nautilus,Win,Pick,Rumble Day 5,PGG,Support,B
+DK,Blue,Lee Sin,Win,Pick,Rumble Day 5,PGG,Top,C
+DK,Blue,Zoe,Win,Pick,Rumble Day 5,PGG,Mid,B
+PGG,Red,Renekton,Loss,Ban,Rumble Day 5,DK,Ban,Ban
+PGG,Red,Leona,Loss,Ban,Rumble Day 5,DK,Ban,Ban
+PGG,Red,Senna,Loss,Ban,Rumble Day 5,DK,Ban,Ban
+PGG,Red,Jayce,Loss,Ban,Rumble Day 5,DK,Ban,Ban
+PGG,Red,Sylas,Loss,Ban,Rumble Day 5,DK,Ban,Ban
+PGG,Red,Lucian,Loss,Pick,Rumble Day 5,DK,Adc,C
+PGG,Red,Udyr,Loss,Pick,Rumble Day 5,DK,Jungle,B
+PGG,Red,Braum,Loss,Pick,Rumble Day 5,DK,Support,C
+PGG,Red,Gnar,Loss,Pick,Rumble Day 5,DK,Top,B
+PGG,Red,Viktor,Loss,Pick,Rumble Day 5,DK,Mid,C
+PSG,Blue,Lucian,Win,Ban,Rumble Day 5,PSG,Ban,Ban
+PSG,Blue,Lee Sin,Win,Ban,Rumble Day 5,PSG,Ban,Ban
+PSG,Blue,Senna,Win,Ban,Rumble Day 5,PSG,Ban,Ban
+PSG,Blue,Zoe,Win,Ban,Rumble Day 5,PSG,Ban,Ban
+PSG,Blue,Leblanc,Win,Ban,Rumble Day 5,PSG,Ban,Ban
+PSG,Blue,Kaisa,Win,Pick,Rumble Day 5,PSG,Adc,B
+PSG,Blue,Rumble,Win,Pick,Rumble Day 5,PSG,Jungle,C
+PSG,Blue,Qiyana,Win,Pick,Rumble Day 5,PSG,Mid,B
+PSG,Blue,Nocturne,Win,Pick,Rumble Day 5,PSG,Top,B
+PSG,Blue,Galio,Win,Pick,Rumble Day 5,PSG,Support,C
+C9,Red,Thresh,Loss,Ban,Rumble Day 5,PSG,Ban,Ban
+C9,Red,Varus,Loss,Ban,Rumble Day 5,PSG,Ban,Ban
+C9,Red,Renekton,Loss,Ban,Rumble Day 5,PSG,Ban,Ban
+C9,Red,Rell,Loss,Ban,Rumble Day 5,PSG,Ban,Ban
+C9,Red,Nautilus,Loss,Ban,Rumble Day 5,PSG,Ban,Ban
+C9,Red,Tristana,Loss,Pick,Rumble Day 5,PSG,Adc,C
+C9,Red,Udyr,Loss,Pick,Rumble Day 5,PSG,Jungle,B
+C9,Red,Leona,Loss,Pick,Rumble Day 5,PSG,Support,B
+C9,Red,Sylas,Loss,Pick,Rumble Day 5,PSG,Mid,C
+C9,Red,Aatrox,Loss,Pick,Rumble Day 5,PSG,Top,C
+RNG,Blue,Zoe,Loss,Ban,Rumble Day 5,MAD,Ban,Ban
+RNG,Blue,Thresh,Loss,Ban,Rumble Day 5,MAD,Ban,Ban
+RNG,Blue,Senna,Loss,Ban,Rumble Day 5,MAD,Ban,Ban
+RNG,Blue,Jayce,Loss,Ban,Rumble Day 5,MAD,Ban,Ban
+RNG,Blue,Nautilus,Loss,Ban,Rumble Day 5,MAD,Ban,Ban
+RNG,Blue,Varus,Loss,Pick,Rumble Day 5,MAD,Adc,B
+RNG,Blue,Morgana,Loss,Pick,Rumble Day 5,MAD,Jungle,C
+RNG,Blue,Gnar,Loss,Pick,Rumble Day 5,MAD,Top,B
+RNG,Blue,Alistar,Loss,Pick,Rumble Day 5,MAD,Support,C
+RNG,Blue,Viktor,Loss,Pick,Rumble Day 5,MAD,Mid,C
+MAD,Red,Lee Sin,Win,Ban,Rumble Day 5,RNG,Ban,Ban
+MAD,Red,Renekton,Win,Ban,Rumble Day 5,RNG,Ban,Ban
+MAD,Red,Udyr,Win,Ban,Rumble Day 5,RNG,Ban,Ban
+MAD,Red,Tahm Kench,Win,Ban,Rumble Day 5,RNG,Ban,Ban
+MAD,Red,Twisted Fate,Win,Ban,Rumble Day 5,RNG,Ban,Ban
+MAD,Red,Lucian,Win,Pick,Rumble Day 5,RNG,Mid,B
+MAD,Red,Rumble,Win,Pick,Rumble Day 5,RNG,Jungle,B
+MAD,Red,Kaisa,Win,Pick,Rumble Day 5,RNG,Adc,C
+MAD,Red,Leona,Win,Pick,Rumble Day 5,RNG,Support,B
+MAD,Red,Wukong,Win,Pick,Rumble Day 5,RNG,Top,C
+PGG,Blue,Varus,Loss,Ban,Rumble Day 5,PGG,Ban,Ban
+PGG,Blue,Thresh,Loss,Ban,Rumble Day 5,PGG,Ban,Ban
+PGG,Blue,Morgana,Loss,Ban,Rumble Day 5,PGG,Ban,Ban
+PGG,Blue,Sylas,Loss,Ban,Rumble Day 5,PGG,Ban,Ban
+PGG,Blue,Jayce,Loss,Ban,Rumble Day 5,PGG,Ban,Ban
+PGG,Blue,Udyr,Loss,Pick,Rumble Day 5,PGG,Jungle,B
+PGG,Blue,Gnar,Loss,Pick,Rumble Day 5,PGG,Top,B
+PGG,Blue,Xayah,Loss,Pick,Rumble Day 5,PGG,Adc,C
+PGG,Blue,Viktor,Loss,Pick,Rumble Day 5,PGG,Mid,C
+PGG,Blue,Braum,Loss,Pick,Rumble Day 5,PGG,Support,C
+PSG,Red,Senna,Win,Ban,Rumble Day 5,PGG,Ban,Ban
+PSG,Red,Lee Sin,Win,Ban,Rumble Day 5,PGG,Ban,Ban
+PSG,Red,Urgot,Win,Ban,Rumble Day 5,PGG,Ban,Ban
+PSG,Red,Rakan,Win,Ban,Rumble Day 5,PGG,Ban,Ban
+PSG,Red,Alistar,Win,Ban,Rumble Day 5,PGG,Ban,Ban
+PSG,Red,Renekton,Win,Pick,Rumble Day 5,PGG,Mid,B
+PSG,Red,Kaisa,Win,Pick,Rumble Day 5,PGG,Adc,B
+PSG,Red,Rumble,Win,Pick,Rumble Day 5,PGG,Jungle,C
+PSG,Red,Leona,Win,Pick,Rumble Day 5,PGG,Support,B
+PSG,Red,Gangplank,Win,Pick,Rumble Day 5,PGG,Top,C
+RNG,Blue,Senna,Win,Ban,Rumble Day 5,DK,Ban,Ban
+RNG,Blue,Zoe,Win,Ban,Rumble Day 5,DK,Ban,Ban
+RNG,Blue,Sett,Win,Ban,Rumble Day 5,DK,Ban,Ban
+RNG,Blue,Lucian,Win,Ban,Rumble Day 5,DK,Ban,Ban
+RNG,Blue,Gangplank,Win,Ban,Rumble Day 5,DK,Ban,Ban
+RNG,Blue,Renekton,Win,Pick,Rumble Day 5,DK,Mid,B
+RNG,Blue,Morgana,Win,Pick,Rumble Day 5,DK,Jungle,C
+RNG,Blue,Tristana,Win,Pick,Rumble Day 5,DK,Adc,C
+RNG,Blue,Gnar,Win,Pick,Rumble Day 5,DK,Top,C
+RNG,Blue,Rell,Win,Pick,Rumble Day 5,DK,Support,C
+DK,Red,Thresh,DK,Ban,Rumble Day 5,RNG,Ban,Ban
+DK,Red,Varus,DK,Ban,Rumble Day 5,RNG,Ban,Ban
+DK,Red,Lee Sin,DK,Ban,Rumble Day 5,RNG,Ban,Ban
+DK,Red,Leona,DK,Ban,Rumble Day 5,RNG,Ban,Ban
+DK,Red,Twisted Fate,DK,Ban,Rumble Day 5,RNG,Ban,Ban
+DK,Red,Kaisa,DK,Pick,Rumble Day 5,RNG,Adc,B
+DK,Red,Udyr,DK,Pick,Rumble Day 5,RNG,Jungle,B
+DK,Red,Nautilus,DK,Pick,Rumble Day 5,RNG,Support,B
+DK,Red,Sion,DK,Pick,Rumble Day 5,RNG,Top,B
+DK,Red,Viktor,DK,Pick,Rumble Day 5,RNG,Mid,C
+PGG,Blue,Lucian,Win,Ban,Rumble Day 4,C9,Ban,Ban
+PGG,Blue,Lee Sin,Win,Ban,Rumble Day 4,C9,Ban,Ban
+PGG,Blue,Varus,Win,Ban,Rumble Day 4,C9,Ban,Ban
+PGG,Blue,Udyr,Win,Pick,Rumble Day 4,C9,Jungle,B
+PGG,Blue,Senna,Win,Pick,Rumble Day 4,C9,Adc,C
+PGG,Blue,Tahm Kench,Win,Pick,Rumble Day 4,C9,Support,C
+PGG,Blue,Jayce,Win,Ban,Rumble Day 4,C9,Ban,Ban
+PGG,Blue,Yone,Win,Ban,Rumble Day 4,C9,Ban,Ban
+PGG,Blue,Sett,Win,Pick,Rumble Day 4,C9,Top,C
+PGG,Blue,Viktor,Win,Pick,Rumble Day 4,C9,Mid,B
+C9,Red,Gnar,Loss,Ban,Rumble Day 4,PGG,Ban,Ban
+C9,Red,Thresh,Loss,Ban,Rumble Day 4,PGG,Ban,Ban
+C9,Red,Renekton,Loss,Ban,Rumble Day 4,PGG,Ban,Ban
+C9,Red,Kaisa,Loss,Pick,Rumble Day 4,PGG,Adc,B
+C9,Red,Nautilus,Loss,Pick,Rumble Day 4,PGG,Support,B
+C9,Red,Lillia,Loss,Pick,Rumble Day 4,PGG,Jungle,C
+C9,Red,Urgot,Loss,Ban,Rumble Day 4,PGG,Ban,Ban
+C9,Red,Syndra,Loss,Ban,Rumble Day 4,PGG,Ban,Ban
+C9,Red,Sion,Loss,Pick,Rumble Day 4,PGG,Top,B
+C9,Red,Tristana,Loss,Pick,Rumble Day 4,PGG,Mid,C
+DK,Blue,Thresh,Win,Ban,Rumble Day 4,PSG,Ban,Ban
+DK,Blue,Varus,Win,Ban,Rumble Day 4,PSG,Ban,Ban
+DK,Blue,Udyr,Win,Ban,Rumble Day 4,PSG,Ban,Ban
+DK,Blue,Kaisa,Win,Pick,Rumble Day 4,PSG,Adc,B
+DK,Blue,Rumble,Win,Pick,Rumble Day 4,PSG,Jungle,C
+DK,Blue,Nautilus,Win,Pick,Rumble Day 4,PSG,Support,B
+DK,Blue,Leona,Win,Ban,Rumble Day 4,PSG,Ban,Ban
+DK,Blue,Twisted Fate,Win,Ban,Rumble Day 4,PSG,Ban,Ban
+DK,Blue,Zoe,Win,Pick,Rumble Day 4,PSG,Mid,B
+DK,Blue,Gnar,Win,Pick,Rumble Day 4,PSG,Top,C
+PSG,Red,Senna,Loss,Ban,Rumble Day 4,DK,Ban,Ban
+PSG,Red,Lucian,Loss,Ban,Rumble Day 4,DK,Ban,Ban
+PSG,Red,Renekton,Loss,Ban,Rumble Day 4,DK,Ban,Ban
+PSG,Red,Lee Sin,Loss,Pick,Rumble Day 4,DK,Top,B
+PSG,Red,Morgana,Loss,Pick,Rumble Day 4,DK,Jungle,C
+PSG,Red,Xayah,Loss,Pick,Rumble Day 4,DK,Adc,C
+PSG,Red,Sett,Loss,Ban,Rumble Day 4,DK,Ban,Ban
+PSG,Red,Jayce,Loss,Ban,Rumble Day 4,DK,Ban,Ban
+PSG,Red,Rakan,Loss,Pick,Rumble Day 4,DK,Support,B
+PSG,Red,Sylas,Loss,Pick,Rumble Day 4,DK,Mid,C
+PGG,Blue,Lucian,Loss,Ban,Rumble Day 4,MAD,Ban,Ban
+PGG,Blue,Morgana,Loss,Ban,Rumble Day 4,MAD,Ban,Ban
+PGG,Blue,Varus,Loss,Ban,Rumble Day 4,MAD,Ban,Ban
+PGG,Blue,Rumble,Loss,Pick,Rumble Day 4,MAD,Jungle,B
+PGG,Blue,Thresh,Loss,Pick,Rumble Day 4,MAD,Support,B
+PGG,Blue,Aphelios,Loss,Pick,Rumble Day 4,MAD,Adc,C
+PGG,Blue,Gnar,Loss,Ban,Rumble Day 4,MAD,Ban,Ban
+PGG,Blue,Orianna,Loss,Ban,Rumble Day 4,MAD,Ban,Ban
+PGG,Blue,Qiyana,Loss,Pick,Rumble Day 4,MAD,Mid,B
+PGG,Blue,Sion,Loss,Pick,Rumble Day 4,MAD,Top,C
+MAD,Red,Renekton,Win,Ban,Rumble Day 4,PGG,Ban,Ban
+MAD,Red,Lee Sin,Win,Ban,Rumble Day 4,PGG,Ban,Ban
+MAD,Red,Udyr,Win,Ban,Rumble Day 4,PGG,Ban,Ban
+MAD,Red,Volibear,Win,Pick,Rumble Day 4,PGG,Jungle,C
+MAD,Red,Kaisa,Win,Pick,Rumble Day 4,PGG,Adc,B
+MAD,Red,Leona,Win,Pick,Rumble Day 4,PGG,Support,C
+MAD,Red,Urgot,Win,Ban,Rumble Day 4,PGG,Ban,Ban
+MAD,Red,Kassadin,Win,Ban,Rumble Day 4,PGG,Ban,Ban
+MAD,Red,Jayce,Win,Pick,Rumble Day 4,PGG,Top,B
+MAD,Red,Lissandra,Win,Pick,Rumble Day 4,PGG,Mid,C
+C9,Blue,Lucian,Win,Ban,Rumble Day 4,RNG,Ban,Ban
+C9,Blue,Varus,Win,Ban,Rumble Day 4,RNG,Ban,Ban
+C9,Blue,Thresh,Win,Ban,Rumble Day 4,RNG,Ban,Ban
+C9,Blue,Lee Sin,Win,Pick,Rumble Day 4,RNG,Top,B
+C9,Blue,Kaisa,Win,Pick,Rumble Day 4,RNG,Adc,B
+C9,Blue,Leona,Win,Pick,Rumble Day 4,RNG,Support,C
+C9,Blue,Gnar,Win,Ban,Rumble Day 4,RNG,Ban,Ban
+C9,Blue,Orianna,Win,Ban,Rumble Day 4,RNG,Ban,Ban
+C9,Blue,Zoe,Win,Pick,Rumble Day 4,RNG,Mid,B
+C9,Blue,Volibear,Win,Pick,Rumble Day 4,RNG,Jungle,C
+RNG,Red,Udyr,Loss,Ban,Rumble Day 4,C9,Ban,Ban
+RNG,Red,Morgana,Loss,Ban,Rumble Day 4,C9,Ban,Ban
+RNG,Red,Renekton,Loss,Ban,Rumble Day 4,C9,Ban,Ban
+RNG,Red,Rumble,Loss,Pick,Rumble Day 4,C9,Jungle,B
+RNG,Red,Nautilus,Loss,Pick,Rumble Day 4,C9,Support,B
+RNG,Red,Xayah,Loss,Pick,Rumble Day 4,C9,Adc,C
+RNG,Red,Nidalee,Loss,Ban,Rumble Day 4,C9,Ban,Ban
+RNG,Red,Udyr,Loss,Ban,Rumble Day 4,C9,Ban,Ban
+RNG,Red,Jayce,Loss,Pick,Rumble Day 4,C9,Top,C
+RNG,Red,Twisted Fate,Loss,Pick,Rumble Day 4,C9,Mid,C
+MAD,Blue,Renekton,Loss,Ban,Rumble Day 4,DK,Ban,Ban
+MAD,Blue,Nocturne,Loss,Ban,Rumble Day 4,DK,Ban,Ban
+MAD,Blue,Tahm Kench,Loss,Ban,Rumble Day 4,DK,Ban,Ban
+MAD,Blue,Lee Sin,Loss,Pick,Rumble Day 4,DK,Top,B
+MAD,Blue,Xayah,Loss,Pick,Rumble Day 4,DK,Adc,C
+MAD,Blue,Rumble,Loss,Pick,Rumble Day 4,DK,Jungle,C
+MAD,Blue,Gnar,Loss,Ban,Rumble Day 4,DK,Ban,Ban
+MAD,Blue,Sett,Loss,Ban,Rumble Day 4,DK,Ban,Ban
+MAD,Blue,Viktor,Loss,Pick,Rumble Day 4,DK,Mid,B
+MAD,Blue,Rakan,Loss,Pick,Rumble Day 4,DK,Support,C
+DK,Red,Thresh,Win,Ban,Rumble Day 4,MAD,Ban,Ban
+DK,Red,Varus,Win,Ban,Rumble Day 4,MAD,Ban,Ban
+DK,Red,Lucian,Win,Ban,Rumble Day 4,MAD,Ban,Ban
+DK,Red,Kaisa,Win,Pick,Rumble Day 4,MAD,Adc,B
+DK,Red,Udyr,Win,Pick,Rumble Day 4,MAD,Jungle,B
+DK,Red,Nautilus,Win,Pick,Rumble Day 4,MAD,Support,B
+DK,Red,Leona,Win,Ban,Rumble Day 4,MAD,Ban,Ban
+DK,Red,Orianna,Win,Ban,Rumble Day 4,MAD,Ban,Ban
+DK,Red,Aatrox,Win,Pick,Rumble Day 4,MAD,Top,C
+DK,Red,Zoe,Win,Pick,Rumble Day 4,MAD,Mid,C
+PSG,Blue,Lucian,Loss,Ban,Rumble Day 4,RNG,Ban,Ban
+PSG,Blue,Varus,Loss,Ban,Rumble Day 4,RNG,Ban,Ban
+PSG,Blue,Thresh,Loss,Ban,Rumble Day 4,RNG,Ban,Ban
+PSG,Blue,Rumble,Loss,Pick,Rumble Day 4,RNG,Jungle,B
+PSG,Blue,Xayah,Loss,Pick,Rumble Day 4,RNG,Adc,C
+PSG,Blue,Leona,Loss,Pick,Rumble Day 4,RNG,Support,C
+PSG,Blue,Volibear,Loss,Ban,Rumble Day 4,RNG,Ban,Ban
+PSG,Blue,Olaf,Loss,Ban,Rumble Day 4,RNG,Ban,Ban
+PSG,Blue,Jayce,Loss,Pick,Rumble Day 4,RNG,Top,C
+PSG,Blue,Zoe,Loss,Pick,Rumble Day 4,RNG,Mid,B
+RNG,Red,Udyr,Win,Ban,Rumble Day 4,PSG,Ban,Ban
+RNG,Red,Morgana,Win,Ban,Rumble Day 4,PSG,Ban,Ban
+RNG,Red,Renekton,Win,Ban,Rumble Day 4,PSG,Ban,Ban
+RNG,Red,Kaisa,Win,Pick,Rumble Day 4,PSG,Adc,B
+RNG,Red,Nautilus,Win,Pick,Rumble Day 4,PSG,Support,B
+RNG,Red,Lee Sin,Win,Pick,Rumble Day 4,PSG,Top,B
+RNG,Red,Sett,Win,Ban,Rumble Day 4,PSG,Ban,Ban
+RNG,Red,Nocturne,Win,Ban,Rumble Day 4,PSG,Ban,Ban
+RNG,Red,Lillia,Win,Pick,Rumble Day 4,PSG,Jungle,C
+RNG,Red,Twisted Fate,Win,Pick,Rumble Day 4,PSG,Mid,C
+PSG,Blue,Senna,Win,Ban,Rumble Day 3,MAD,Ban,Ban
+PSG,Blue,Lucian,Win,Ban,Rumble Day 3,MAD,Ban,Ban
+PSG,Blue,Varus,Win,Ban,Rumble Day 3,MAD,Ban,Ban
+PSG,Blue,Udyr,Win,Pick,Rumble Day 3,MAD,Jungle,B
+PSG,Blue,Xayah,Win,Pick,Rumble Day 3,MAD,Adc,C
+PSG,Blue,Leona,Win,Pick,Rumble Day 3,MAD,Support,C
+PSG,Blue,Wukong,Win,Ban,Rumble Day 3,MAD,Ban,Ban
+PSG,Blue,Jayce,Win,Ban,Rumble Day 3,MAD,Ban,Ban
+PSG,Blue,Viktor,Win,Pick,Rumble Day 3,MAD,Mid,B
+PSG,Blue,Gangplank,Win,Pick,Rumble Day 3,MAD,Top,C
+MAD,Red,Renekton,Loss,Ban,Rumble Day 3,PSG,Ban,Ban
+MAD,Red,Lee Sin,Loss,Ban,Rumble Day 3,PSG,Ban,Ban
+MAD,Red,Thresh,Loss,Ban,Rumble Day 3,PSG,Ban,Ban
+MAD,Red,Kaisa,Loss,Pick,Rumble Day 3,PSG,Adc,B
+MAD,Red,Nautilus,Loss,Pick,Rumble Day 3,PSG,Support,B
+MAD,Red,Rumble,Loss,Pick,Rumble Day 3,PSG,Jungle,C
+MAD,Red,Sylas,Loss,Ban,Rumble Day 3,PSG,Ban,Ban
+MAD,Red,Nocturne,Loss,Ban,Rumble Day 3,PSG,Ban,Ban
+MAD,Red,Gnar,Loss,Pick,Rumble Day 3,PSG,Top,B
+MAD,Red,Orianna,Loss,Pick,Rumble Day 3,PSG,Mid,C
+C9,Blue,Gnar,Loss,Ban,Rumble Day 3,DK,Ban,Ban
+C9,Blue,Varus,Loss,Ban,Rumble Day 3,DK,Ban,Ban
+C9,Blue,Senna,Loss,Ban,Rumble Day 3,DK,Ban,Ban
+C9,Blue,Renekton,Loss,Pick,Rumble Day 3,DK,Top,B
+C9,Blue,Morgana,Loss,Pick,Rumble Day 3,DK,Jungle,C
+C9,Blue,Tristana,Loss,Pick,Rumble Day 3,DK,Adc,C
+C9,Blue,Jayce,Loss,Ban,Rumble Day 3,DK,Ban,Ban
+C9,Blue,Syndra,Loss,Ban,Rumble Day 3,DK,Ban,Ban
+C9,Blue,Alistar,Loss,Pick,Rumble Day 3,DK,Support,C
+C9,Blue,Orianna,Loss,Pick,Rumble Day 3,DK,Mid,B
+DK,Red,Thresh,Win,Ban,Rumble Day 3,C9,Ban,Ban
+DK,Red,Tahm Kench,Win,Ban,Rumble Day 3,C9,Ban,Ban
+DK,Red,Lee Sin,Win,Ban,Rumble Day 3,C9,Ban,Ban
+DK,Red,Kaisa,Win,Pick,Rumble Day 3,C9,Adc,B
+DK,Red,Udyr,Win,Pick,Rumble Day 3,C9,Jungle,B
+DK,Red,Nautilus,Win,Pick,Rumble Day 3,C9,Support,B
+DK,Red,Leona,Win,Ban,Rumble Day 3,C9,Ban,Ban
+DK,Red,Lucian,Win,Ban,Rumble Day 3,C9,Ban,Ban
+DK,Red,Gangplank,Win,Pick,Rumble Day 3,C9,Top,C
+DK,Red,Viktor,Win,Pick,Rumble Day 3,C9,Mid,C
+RNG,Blue,Morgana,Win,Ban,Rumble Day 3,PGG,Ban,Ban
+RNG,Blue,Renekton,Win,Ban,Rumble Day 3,PGG,Ban,Ban
+RNG,Blue,Thresh,Win,Ban,Rumble Day 3,PGG,Ban,Ban
+RNG,Blue,Rumble,Win,Pick,Rumble Day 3,PGG,Jungle,B
+RNG,Blue,Varus,Win,Pick,Rumble Day 3,PGG,Adc,B
+RNG,Blue,Nautilus,Win,Pick,Rumble Day 3,PGG,Support,B
+RNG,Blue,Qiyana,Win,Ban,Rumble Day 3,PGG,Ban,Ban
+RNG,Blue,Kaisa,Win,Ban,Rumble Day 3,PGG,Ban,Ban
+RNG,Blue,Nocturne,Win,Pick,Rumble Day 3,PGG,Mid,B
+RNG,Blue,Gragas,Win,Pick,Rumble Day 3,PGG,Top,C
+PGG,Red,Lucian,Loss,Ban,Rumble Day 3,RNG,Ban,Ban
+PGG,Red,Udyr,Loss,Ban,Rumble Day 3,RNG,Ban,Ban
+PGG,Red,Lee Sin,Loss,Ban,Rumble Day 3,RNG,Ban,Ban
+PGG,Red,Jayce,Loss,Pick,Rumble Day 3,RNG,Top,B
+PGG,Red,Nidalee,Loss,Pick,Rumble Day 3,RNG,Jungle,C
+PGG,Red,Leona,Loss,Pick,Rumble Day 3,RNG,Support,C
+PGG,Red,Sylas,Loss,Ban,Rumble Day 3,RNG,Ban,Ban
+PGG,Red,Irelia,Loss,Ban,Rumble Day 3,RNG,Ban,Ban
+PGG,Red,Tristana,Loss,Pick,Rumble Day 3,RNG,Adc,C
+PGG,Red,Akali,Loss,Pick,Rumble Day 3,RNG,Mid,C
+DK,Blue,Thresh,Win,Ban,Rumble Day 3,MAD,Ban,Ban
+DK,Blue,Varus,Win,Ban,Rumble Day 3,MAD,Ban,Ban
+DK,Blue,Lucian,Win,Ban,Rumble Day 3,MAD,Ban,Ban
+DK,Blue,Kaisa,Win,Pick,Rumble Day 3,MAD,Adc,B
+DK,Blue,Morgana,Win,Pick,Rumble Day 3,MAD,Jungle,C
+DK,Blue,Lee Sin,Win,Pick,Rumble Day 3,MAD,Top,B
+DK,Blue,Gnar,Win,Ban,Rumble Day 3,MAD,Ban,Ban
+DK,Blue,Orianna,Win,Ban,Rumble Day 3,MAD,Ban,Ban
+DK,Blue,Zoe,Win,Pick,Rumble Day 3,MAD,Mid,C
+DK,Blue,Sett,Win,Pick,Rumble Day 3,MAD,Support,C
+MAD,Red,Senna,Loss,Ban,Rumble Day 3,DK,Ban,Ban
+MAD,Red,Renekton,Loss,Ban,Rumble Day 3,DK,Ban,Ban
+MAD,Red,Leona,Loss,Ban,Rumble Day 3,DK,Ban,Ban
+MAD,Red,Nautilus,Loss,Pick,Rumble Day 3,DK,Support,B
+MAD,Red,Udyr,Loss,Pick,Rumble Day 3,DK,Jungle,B
+MAD,Red,Tristana,Loss,Pick,Rumble Day 3,DK,Adc,C
+MAD,Red,Alistar,Loss,Ban,Rumble Day 3,DK,Ban,Ban
+MAD,Red,Rell,Loss,Ban,Rumble Day 3,DK,Ban,Ban
+MAD,Red,Viktor,Loss,Pick,Rumble Day 3,DK,Mid,B
+MAD,Red,Shen,Loss,Pick,Rumble Day 3,DK,Top,C
+RNG,Blue,Thresh,Loss,Ban,Rumble Day 3,PSG,Ban,Ban
+RNG,Blue,Renekton,Loss,Ban,Rumble Day 3,PSG,Ban,Ban
+RNG,Blue,Senna,Loss,Ban,Rumble Day 3,PSG,Ban,Ban
+RNG,Blue,Kaisa,Loss,Pick,Rumble Day 3,PSG,Adc,B
+RNG,Blue,Rumble,Loss,Pick,Rumble Day 3,PSG,Jungle,B
+RNG,Blue,Leona,Loss,Pick,Rumble Day 3,PSG,Support,C
+RNG,Blue,Akali,Loss,Ban,Rumble Day 3,PSG,Ban,Ban
+RNG,Blue,Galio,Loss,Ban,Rumble Day 3,PSG,Ban,Ban
+RNG,Blue,Gnar,Loss,Pick,Rumble Day 3,PSG,Top,C
+RNG,Blue,Viktor,Loss,Pick,Rumble Day 3,PSG,Mid,B
+PSG,Red,Lucian,Win,Ban,Rumble Day 3,RNG,Ban,Ban
+PSG,Red,Udyr,Win,Ban,Rumble Day 3,RNG,Ban,Ban
+PSG,Red,Varus,Win,Ban,Rumble Day 3,RNG,Ban,Ban
+PSG,Red,Nautilus,Win,Pick,Rumble Day 3,RNG,Support,B
+PSG,Red,Tristana,Win,Pick,Rumble Day 3,RNG,Adc,C
+PSG,Red,Morgana,Win,Pick,Rumble Day 3,RNG,Jungle,C
+PSG,Red,Sylas,Win,Ban,Rumble Day 3,RNG,Ban,Ban
+PSG,Red,Nocturne,Win,Ban,Rumble Day 3,RNG,Ban,Ban
+PSG,Red,Lee Sin,Win,Pick,Rumble Day 3,RNG,Top,B
+PSG,Red,Zoe,Win,Pick,Rumble Day 3,RNG,Mid,C
+C9,Blue,Gnar,Win,Ban,Rumble Day 3,PGG,Ban,Ban
+C9,Blue,Varus,Win,Ban,Rumble Day 3,PGG,Ban,Ban
+C9,Blue,Thresh,Win,Ban,Rumble Day 3,PGG,Ban,Ban
+C9,Blue,Udyr,Win,Pick,Rumble Day 3,PGG,Jungle,B
+C9,Blue,Senna,Win,Pick,Rumble Day 3,PGG,Adc,B
+C9,Blue,Tahm Kench,Win,Pick,Rumble Day 3,PGG,Support,C
+C9,Blue,Urgot,Win,Ban,Rumble Day 3,PGG,Ban,Ban
+C9,Blue,Sion,Win,Ban,Rumble Day 3,PGG,Ban,Ban
+C9,Blue,Jayce,Win,Pick,Rumble Day 3,PGG,Top,B
+C9,Blue,Zoe,Win,Pick,Rumble Day 3,PGG,Mid,C
+PGG,Red,Lucian,Loss,Ban,Rumble Day 3,C9,Ban,Ban
+PGG,Red,Lee Sin,Loss,Ban,Rumble Day 3,C9,Ban,Ban
+PGG,Red,Renekton,Loss,Ban,Rumble Day 3,C9,Ban,Ban
+PGG,Red,Nautilus,Loss,Pick,Rumble Day 3,C9,Support,B
+PGG,Red,Morgana,Loss,Pick,Rumble Day 3,C9,Jungle,C
+PGG,Red,Samira,Loss,Pick,Rumble Day 3,C9,Adc,C
+PGG,Red,Sylas,Loss,Ban,Rumble Day 3,C9,Ban,Ban
+PGG,Red,Orianna,Loss,Ban,Rumble Day 3,C9,Ban,Ban
+PGG,Red,Syndra,Loss,Pick,Rumble Day 3,C9,Mid,B
+PGG,Red,Yorick,Loss,Pick,Rumble Day 3,C9,Top,C
+MAD,Blue,Renekton,Win,Ban,Rumble Day 2,PSG,Ban,Ban
+MAD,Blue,Thresh,Win,Ban,Rumble Day 2,PSG,Ban,Ban
+MAD,Blue,Lee Sin,Win,Ban,Rumble Day 2,PSG,Ban,Ban
+MAD,Blue,Rumble,Win,Pick,Rumble Day 2,PSG,Jungle,B
+MAD,Blue,Tristana,Win,Pick,Rumble Day 2,PSG,Adc,C
+MAD,Blue,Leona,Win,Pick,Rumble Day 2,PSG,Support,C
+MAD,Blue,Nocturne,Win,Ban,Rumble Day 2,PSG,Ban,Ban
+MAD,Blue,Akali,Win,Ban,Rumble Day 2,PSG,Ban,Ban
+MAD,Blue,Jayce,Win,Pick,Rumble Day 2,PSG,Top,C
+MAD,Blue,Viktor,Win,Pick,Rumble Day 2,PSG,Mid,B
+PSG,Red,Senna,Loss,Ban,Rumble Day 2,MAD,Ban,Ban
+PSG,Red,Lucian,Loss,Ban,Rumble Day 2,MAD,Ban,Ban
+PSG,Red,Udyr,Loss,Ban,Rumble Day 2,MAD,Ban,Ban
+PSG,Red,Kaisa,Loss,Pick,Rumble Day 2,MAD,Adc,B
+PSG,Red,Nautilus,Loss,Pick,Rumble Day 2,MAD,Support,B
+PSG,Red,Morgana,Loss,Pick,Rumble Day 2,MAD,Jungle,C
+PSG,Red,Wukong,Loss,Ban,Rumble Day 2,MAD,Ban,Ban
+PSG,Red,Sylas,Loss,Ban,Rumble Day 2,MAD,Ban,Ban
+PSG,Red,Gnar,Loss,Pick,Rumble Day 2,MAD,Top,B
+PSG,Red,Galio,Loss,Pick,Rumble Day 2,MAD,Mid,C
+PGG,Blue,Lucian,Loss,Ban,Rumble Day 2,DK,Ban,Ban
+PGG,Blue,Renekton,Loss,Ban,Rumble Day 2,DK,Ban,Ban
+PGG,Blue,Sylas,Loss,Ban,Rumble Day 2,DK,Ban,Ban
+PGG,Blue,Lee Sin,Loss,Pick,Rumble Day 2,DK,Mid,B
+PGG,Blue,Rumble,Loss,Pick,Rumble Day 2,DK,Jungle,C
+PGG,Blue,Gnar,Loss,Pick,Rumble Day 2,DK,Top,B
+PGG,Blue,Leona,Loss,Ban,Rumble Day 2,DK,Ban,Ban
+PGG,Blue,Nocturne,Loss,Ban,Rumble Day 2,DK,Ban,Ban
+PGG,Blue,Xayah,Loss,Pick,Rumble Day 2,DK,Adc,C
+PGG,Blue,Alistar,Loss,Pick,Rumble Day 2,DK,Support,C
+DK,Red,Thresh,Win,Ban,Rumble Day 2,PGG,Ban,Ban
+DK,Red,Varus,Win,Ban,Rumble Day 2,PGG,Ban,Ban
+DK,Red,Morgana,Win,Ban,Rumble Day 2,PGG,Ban,Ban
+DK,Red,Kaisa,Win,Pick,Rumble Day 2,PGG,Adc,B
+DK,Red,Udyr,Win,Pick,Rumble Day 2,PGG,Jungle,B
+DK,Red,Jayce,Win,Pick,Rumble Day 2,PGG,Top,C
+DK,Red,Senna,Win,Ban,Rumble Day 2,PGG,Ban,Ban
+DK,Red,Samira,Win,Ban,Rumble Day 2,PGG,Ban,Ban
+DK,Red,Nautilus,Win,Pick,Rumble Day 2,PGG,Support,B
+DK,Red,Zoe,Win,Pick,Rumble Day 2,PGG,Mid,C
+C9,Blue,Gnar,Loss,Ban,Rumble Day 2,PSG,Ban,Ban
+C9,Blue,Varus,Loss,Ban,Rumble Day 2,PSG,Ban,Ban
+C9,Blue,Thresh,Loss,Ban,Rumble Day 2,PSG,Ban,Ban
+C9,Blue,Udyr,Loss,Pick,Rumble Day 2,PSG,Jungle,B
+C9,Blue,Viktor,Loss,Pick,Rumble Day 2,PSG,Mid,B
+C9,Blue,Sett,Loss,Pick,Rumble Day 2,PSG,Top,C
+C9,Blue,Nautilus,Loss,Ban,Rumble Day 2,PSG,Ban,Ban
+C9,Blue,Blitzcrank,Loss,Ban,Rumble Day 2,PSG,Ban,Ban
+C9,Blue,Kog Maw,Loss,Pick,Rumble Day 2,PSG,Adc,C
+C9,Blue,Lulu,Loss,Pick,Rumble Day 2,PSG,Support,C
+PSG,Red,Renekton,Win,Ban,Rumble Day 2,C9,Ban,Ban
+PSG,Red,Tristana,Win,Ban,Rumble Day 2,C9,Ban,Ban
+PSG,Red,Senna,Win,Ban,Rumble Day 2,C9,Ban,Ban
+PSG,Red,Kaisa,Win,Pick,Rumble Day 2,C9,Adc,B
+PSG,Red,Lee Sin,Win,Pick,Rumble Day 2,C9,Top,B
+PSG,Red,Morgana,Win,Pick,Rumble Day 2,C9,Jungle,C
+PSG,Red,Kalista,Win,Ban,Rumble Day 2,C9,Ban,Ban
+PSG,Red,Alistar,Win,Ban,Rumble Day 2,C9,Ban,Ban
+PSG,Red,Leona,Win,Pick,Rumble Day 2,C9,Support,B
+PSG,Red,Akali,Win,Pick,Rumble Day 2,C9,Mid,C
+MAD,Blue,Renekton,Loss,Ban,Rumble Day 2,RNG,Ban,Ban
+MAD,Blue,Kaisa,Loss,Ban,Rumble Day 2,RNG,Ban,Ban
+MAD,Blue,Udyr,Loss,Ban,Rumble Day 2,RNG,Ban,Ban
+MAD,Blue,Morgana,Loss,Pick,Rumble Day 2,RNG,Jungle,B
+MAD,Blue,Jinx,Loss,Pick,Rumble Day 2,RNG,Adc,B
+MAD,Blue,Tahm Kench,Loss,Pick,Rumble Day 2,RNG,Support,C
+MAD,Blue,Jayce,Loss,Ban,Rumble Day 2,RNG,Ban,Ban
+MAD,Blue,Lee Sin,Loss,Ban,Rumble Day 2,RNG,Ban,Ban
+MAD,Blue,Orianna,Loss,Pick,Rumble Day 2,RNG,Mid,B
+MAD,Blue,Wukong,Loss,Pick,Rumble Day 2,RNG,Top,C
+RNG,Red,Senna,Win,Ban,Rumble Day 2,MAD,Ban,Ban
+RNG,Red,Varus,Win,Ban,Rumble Day 2,MAD,Ban,Ban
+RNG,Red,Rumble,Win,Ban,Rumble Day 2,MAD,Ban,Ban
+RNG,Red,Thresh,Win,Pick,Rumble Day 2,MAD,Support,B
+RNG,Red,Olaf,Win,Pick,Rumble Day 2,MAD,Jungle,C
+RNG,Red,Aphelios,Win,Pick,Rumble Day 2,MAD,Adc,C
+RNG,Red,Lucian,Win,Ban,Rumble Day 2,MAD,Ban,Ban
+RNG,Red,Viktor,Win,Ban,Rumble Day 2,MAD,Ban,Ban
+RNG,Red,Gnar,Win,Pick,Rumble Day 2,MAD,Top,B
+RNG,Red,Twisted Fate,Win,Pick,Rumble Day 2,MAD,Mid,C
+DK,Blue,Thresh,Win,Ban,Rumble Day 2,C9,Ban,Ban
+DK,Blue,Renekton,Win,Ban,Rumble Day 2,C9,Ban,Ban
+DK,Blue,Lee Sin,Win,Ban,Rumble Day 2,C9,Ban,Ban
+DK,Blue,Senna,Win,Pick,Rumble Day 2,C9,Adc,B
+DK,Blue,Rumble,Win,Pick,Rumble Day 2,C9,Jungle,C
+DK,Blue,Tahm Kench,Win,Pick,Rumble Day 2,C9,Support,B
+DK,Blue,Orianna,Win,Ban,Rumble Day 2,C9,Ban,Ban
+DK,Blue,Nocturne,Win,Ban,Rumble Day 2,C9,Ban,Ban
+DK,Blue,Syndra,Win,Pick,Rumble Day 2,C9,Mid,C
+DK,Blue,Sion,Win,Pick,Rumble Day 2,C9,Top,B
+C9,Red,Gnar,Loss,Ban,Rumble Day 2,DK,Ban,Ban
+C9,Red,Varus,Loss,Ban,Rumble Day 2,DK,Ban,Ban
+C9,Red,Nautilus,Loss,Ban,Rumble Day 2,DK,Ban,Ban
+C9,Red,Udyr,Loss,Pick,Rumble Day 2,DK,Jungle,B
+C9,Red,Ashe,Loss,Pick,Rumble Day 2,DK,Adc,C
+C9,Red,Lulu,Loss,Pick,Rumble Day 2,DK,Support,C
+C9,Red,Viktor,Loss,Ban,Rumble Day 2,DK,Ban,Ban
+C9,Red,Jayce,Loss,Ban,Rumble Day 2,DK,Ban,Ban
+C9,Red,Lucian,Loss,Pick,Rumble Day 2,DK,Mid,B
+C9,Red,Karma,Loss,Pick,Rumble Day 2,DK,Top,C
+PGG,Blue,Lucian,Loss,Ban,Rumble Day 2,RNG,Ban,Ban
+PGG,Blue,Renekton,Loss,Ban,Rumble Day 2,RNG,Ban,Ban
+PGG,Blue,Nautilus,Loss,Ban,Rumble Day 2,RNG,Ban,Ban
+PGG,Blue,Lee Sin,Loss,Pick,Rumble Day 2,RNG,Mid,B
+PGG,Blue,Aphelios,Loss,Pick,Rumble Day 2,RNG,Adc,C
+PGG,Blue,Lulu,Loss,Pick,Rumble Day 2,RNG,Support,B
+PGG,Blue,Sett,Loss,Ban,Rumble Day 2,RNG,Ban,Ban
+PGG,Blue,Orianna,Loss,Ban,Rumble Day 2,RNG,Ban,Ban
+PGG,Blue,Sion,Loss,Pick,Rumble Day 2,RNG,Top,C
+PGG,Blue,Olaf,Loss,Pick,Rumble Day 2,RNG,Jungle,C
+RNG,Red,Morgana,Win,Ban,Rumble Day 2,PGG,Ban,Ban
+RNG,Red,Varus,Win,Ban,Rumble Day 2,PGG,Ban,Ban
+RNG,Red,Qiyana,Win,Ban,Rumble Day 2,PGG,Ban,Ban
+RNG,Red,Udyr,Win,Pick,Rumble Day 2,PGG,Jungle,B
+RNG,Red,Kog Maw,Win,Pick,Rumble Day 2,PGG,Adc,B
+RNG,Red,Karma,Win,Pick,Rumble Day 2,PGG,Support,C
+RNG,Red,Rumble,Win,Ban,Rumble Day 2,PGG,Ban,Ban
+RNG,Red,Urgot,Win,Ban,Rumble Day 2,PGG,Ban,Ban
+RNG,Red,Jayce,Win,Pick,Rumble Day 2,PGG,Top,B
+RNG,Red,Sylas,Win,Pick,Rumble Day 2,PGG,Mid,C
+C9,Blue,Gnar,Loss,Ban,Rumble Day 1,MAD,Ban,Ban
+C9,Blue,Varus,Loss,Ban,Rumble Day 1,MAD,Ban,Ban
+C9,Blue,Thresh,Loss,Ban,Rumble Day 1,MAD,Ban,Ban
+C9,Blue,Rumble,Loss,Pick,Rumble Day 1,MAD,Jungle,B
+C9,Blue,Kalista,Loss,Pick,Rumble Day 1,MAD,Adc,C
+C9,Blue,Nautilus,Loss,Pick,Rumble Day 1,MAD,Support,B
+C9,Blue,Karma,Loss,Ban,Rumble Day 1,MAD,Ban,Ban
+C9,Blue,Alistar,Loss,Ban,Rumble Day 1,MAD,Ban,Ban
+C9,Blue,Sion,Loss,Pick,Rumble Day 1,MAD,Top,B
+C9,Blue,Kindred,Loss,Pick,Rumble Day 1,MAD,Mid,C
+MAD,Red,Renekton,Win,Ban,Rumble Day 1,C9,Ban,Ban
+MAD,Red,Lee Sin,Win,Ban,Rumble Day 1,C9,Ban,Ban
+MAD,Red,Senna,Win,Ban,Rumble Day 1,C9,Ban,Ban
+MAD,Red,Kaisa,Win,Pick,Rumble Day 1,C9,Adc,B
+MAD,Red,Lucian,Win,Pick,Rumble Day 1,C9,Mid,B
+MAD,Red,Udyr,Win,Pick,Rumble Day 1,C9,Jungle,C
+MAD,Red,Viktor,Win,Ban,Rumble Day 1,C9,Ban,Ban
+MAD,Red,Tristana,Win,Ban,Rumble Day 1,C9,Ban,Ban
+MAD,Red,Leona,Win,Pick,Rumble Day 1,C9,Support,C
+MAD,Red,Sylas,Win,Pick,Rumble Day 1,C9,Top,C
+PSG,Blue,Lee Sin,Win,Ban,Rumble Day 1,PGG,Ban,Ban
+PSG,Blue,Nidalee,Win,Ban,Rumble Day 1,PGG,Ban,Ban
+PSG,Blue,Urgot,Win,Ban,Rumble Day 1,PGG,Ban,Ban
+PSG,Blue,Udyr,Win,Pick,Rumble Day 1,PGG,Jungle,B
+PSG,Blue,Thresh,Win,Pick,Rumble Day 1,PGG,Support,B
+PSG,Blue,Aphelios,Win,Pick,Rumble Day 1,PGG,Adc,C
+PSG,Blue,Nocturne,Win,Ban,Rumble Day 1,PGG,Ban,Ban
+PSG,Blue,Qiyana,Win,Ban,Rumble Day 1,PGG,Ban,Ban
+PSG,Blue,Aatrox,Win,Pick,Rumble Day 1,PGG,Top,C
+PSG,Blue,Sylas,Win,Pick,Rumble Day 1,PGG,Mid,B
+PGG,Red,Renekton,Loss,Ban,Rumble Day 1,PSG,Ban,Ban
+PGG,Red,Lucian,Loss,Ban,Rumble Day 1,PSG,Ban,Ban
+PGG,Red,Gnar,Loss,Ban,Rumble Day 1,PSG,Ban,Ban
+PGG,Red,Kaisa,Loss,Pick,Rumble Day 1,PSG,Adc,B
+PGG,Red,Morgana,Loss,Pick,Rumble Day 1,PSG,Jungle,C
+PGG,Red,Nautilus,Loss,Pick,Rumble Day 1,PSG,Support,C
+PGG,Red,Jayce,Loss,Ban,Rumble Day 1,PSG,Ban,Ban
+PGG,Red,Sett,Loss,Ban,Rumble Day 1,PSG,Ban,Ban
+PGG,Red,Sion,Loss,Pick,Rumble Day 1,PSG,Top,B
+PGG,Red,Zed,Loss,Pick,Rumble Day 1,PSG,Mid,C
+RNG,Blue,Senna,Win,Ban,Rumble Day 1,C9,Ban,Ban
+RNG,Blue,Renekton,Win,Ban,Rumble Day 1,C9,Ban,Ban
+RNG,Blue,Thresh,Win,Ban,Rumble Day 1,C9,Ban,Ban
+RNG,Blue,Udyr,Win,Pick,Rumble Day 1,C9,Jungle,B
+RNG,Blue,Lucian,Win,Pick,Rumble Day 1,C9,Top,B
+RNG,Blue,Kaisa,Win,Pick,Rumble Day 1,C9,Adc,C
+RNG,Blue,Alistar,Win,Ban,Rumble Day 1,C9,Ban,Ban
+RNG,Blue,Galio,Win,Ban,Rumble Day 1,C9,Ban,Ban
+RNG,Blue,Gragas,Win,Pick,Rumble Day 1,C9,Support,C
+RNG,Blue,Orianna,Win,Pick,Rumble Day 1,C9,Mid,C
+C9,Red,Gnar,Loss,Ban,Rumble Day 1,RNG,Ban,Ban
+C9,Red,Varus,Loss,Ban,Rumble Day 1,RNG,Ban,Ban
+C9,Red,Nautilus,Loss,Ban,Rumble Day 1,RNG,Ban,Ban
+C9,Red,Lee Sin,Loss,Pick,Rumble Day 1,RNG,Mid,B
+C9,Red,Tristana,Loss,Pick,Rumble Day 1,RNG,Adc,B
+C9,Red,Morgana,Loss,Pick,Rumble Day 1,RNG,Jungle,C
+C9,Red,Leona,Loss,Ban,Rumble Day 1,RNG,Ban,Ban
+C9,Red,Sett,Loss,Ban,Rumble Day 1,RNG,Ban,Ban
+C9,Red,Rell,Loss,Pick,Rumble Day 1,RNG,Support,B
+C9,Red,Malphite,Loss,Pick,Rumble Day 1,RNG,Top,C
+PSG,Blue,Senna,Loss,Ban,Rumble Day 1,DK,Ban,Ban
+PSG,Blue,Lee Sin,Loss,Ban,Rumble Day 1,DK,Ban,Ban
+PSG,Blue,Lucian,Loss,Ban,Rumble Day 1,DK,Ban,Ban
+PSG,Blue,Udyr,Loss,Pick,Rumble Day 1,DK,Jungle,B
+PSG,Blue,Gnar,Loss,Pick,Rumble Day 1,DK,Top,B
+PSG,Blue,Tristana,Loss,Pick,Rumble Day 1,DK,Adc,C
+PSG,Blue,Nautilus,Loss,Ban,Rumble Day 1,DK,Ban,Ban
+PSG,Blue,Alistar,Loss,Ban,Rumble Day 1,DK,Ban,Ban
+PSG,Blue,Akali,Loss,Pick,Rumble Day 1,DK,Mid,B
+PSG,Blue,Rakan,Loss,Pick,Rumble Day 1,DK,Support,C
+DK,Red,Nautilus,Win,Ban,Rumble Day 1,PSG,Ban,Ban
+DK,Red,Varus,Win,Ban,Rumble Day 1,PSG,Ban,Ban
+DK,Red,Renekton,Win,Ban,Rumble Day 1,PSG,Ban,Ban
+DK,Red,Kaisa,Win,Pick,Rumble Day 1,PSG,Adc,B
+DK,Red,Morgana,Win,Pick,Rumble Day 1,PSG,Jungle,C
+DK,Red,Sion,Win,Pick,Rumble Day 1,PSG,Top,C
+DK,Red,Orianna,Win,Ban,Rumble Day 1,PSG,Ban,Ban
+DK,Red,Zoe,Win,Ban,Rumble Day 1,PSG,Ban,Ban
+DK,Red,Leona,Win,Pick,Rumble Day 1,PSG,Support,B
+DK,Red,Sylas,Win,Pick,Rumble Day 1,PSG,Mid,C
+MAD,Blue,Renekton,Win,Ban,Rumble Day 1,PGG,Ban,Ban
+MAD,Blue,Thresh,Win,Ban,Rumble Day 1,PGG,Ban,Ban
+MAD,Blue,Fiddlesticks,Win,Ban,Rumble Day 1,PGG,Ban,Ban
+MAD,Blue,Rumble,Win,Pick,Rumble Day 1,PGG,Jungle,B
+MAD,Blue,Orianna,Win,Pick,Rumble Day 1,PGG,Mid,B
+MAD,Blue,Gnar,Win,Pick,Rumble Day 1,PGG,Top,B
+MAD,Blue,Viktor,Win,Ban,Rumble Day 1,PGG,Ban,Ban
+MAD,Blue,Nautilus,Win,Ban,Rumble Day 1,PGG,Ban,Ban
+MAD,Blue,Vayne,Win,Pick,Rumble Day 1,PGG,Adc,C
+MAD,Blue,Leona,Win,Pick,Rumble Day 1,PGG,Support,B
+PGG,Red,Lucian,Loss,Ban,Rumble Day 1,MAD,Ban,Ban
+PGG,Red,Lee Sin,Loss,Ban,Rumble Day 1,MAD,Ban,Ban
+PGG,Red,Senna,Loss,Ban,Rumble Day 1,MAD,Ban,Ban
+PGG,Red,Kaisa,Loss,Pick,Rumble Day 1,MAD,Adc,B
+PGG,Red,Udyr,Loss,Pick,Rumble Day 1,MAD,Jungle,C
+PGG,Red,Urgot,Loss,Pick,Rumble Day 1,MAD,Top,C
+PGG,Red,Tristana,Loss,Ban,Rumble Day 1,MAD,Ban,Ban
+PGG,Red,Lulu,Loss,Ban,Rumble Day 1,MAD,Ban,Ban
+PGG,Red,Kassadin,Loss,Pick,Rumble Day 1,MAD,Mid,C
+PGG,Red,Galio,Loss,Pick,Rumble Day 1,MAD,Support,C
+DK,Blue,Renekton,Loss,Ban,Rumble Day 1,RNG,Ban,Ban
+DK,Blue,Thresh,Loss,Ban,Rumble Day 1,RNG,Ban,Ban
+DK,Blue,Varus,Loss,Ban,Rumble Day 1,RNG,Ban,Ban
+DK,Blue,Udyr,Loss,Pick,Rumble Day 1,RNG,Jungle,B
+DK,Blue,Tristana,Loss,Pick,Rumble Day 1,RNG,Adc,C
+DK,Blue,Lucian,Loss,Pick,Rumble Day 1,RNG,Mid,B
+DK,Blue,Viktor,Loss,Ban,Rumble Day 1,RNG,Ban,Ban
+DK,Blue,Lee Sin,Loss,Ban,Rumble Day 1,RNG,Ban,Ban
+DK,Blue,Sett,Loss,Pick,Rumble Day 1,RNG,Support,C
+DK,Blue,Sion,Loss,Pick,Rumble Day 1,RNG,Top,C
+RNG,Red,Senna,Win,Ban,Rumble Day 1,DK,Ban,Ban
+RNG,Red,Morgana,Win,Ban,Rumble Day 1,DK,Ban,Ban
+RNG,Red,Rumble,Win,Ban,Rumble Day 1,DK,Ban,Ban
+RNG,Red,Kaisa,Win,Pick,Rumble Day 1,DK,Adc,B
+RNG,Red,Nautilus,Win,Pick,Rumble Day 1,DK,Support,B
+RNG,Red,Olaf,Win,Pick,Rumble Day 1,DK,Jungle,C
+RNG,Red,Leona,Win,Ban,Rumble Day 1,DK,Ban,Ban
+RNG,Red,Alistar,Win,Ban,Rumble Day 1,DK,Ban,Ban
+RNG,Red,Gragas,Win,Pick,Rumble Day 1,DK,Top,B
+RNG,Red,Orianna,Win,Pick,Rumble Day 1,DK,Mid,C

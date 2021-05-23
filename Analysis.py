@@ -6,11 +6,19 @@ import math as math
 
 championsGroup = pd.read_csv("ChampionsPicked.csv")
 championsRumble = pd.read_csv("ChampionsPickedRumbleStage.csv")
+teamExpected = pd.read_csv("TeamsWin%.csv")
 frames = [championsGroup, championsRumble]
 champions = pd.concat(frames)
-
+expected = []
+for index, row in champions.iterrows():
+    x = teamExpected.loc[teamExpected["Team"] == row["Team"], "Percent"].iloc[0]
+    y = teamExpected.loc[teamExpected["Team"] == row["TeamVS"], "Percent"].iloc[0]
+    expected.append(x / (x + y))
+champions["Expected"] = expected
+print(expected)
 picks = champions[champions["Pick/Ban"] == "Pick"]
 bans = champions[(champions["Pick/Ban"] == "Ban") & (champions["Champion"] != "None")]
+print(champions)
 
 # get a list of all champs picked
 champs_picked = sorted(picks.Champion.unique())
@@ -53,6 +61,7 @@ for index, row in picks.iterrows():
     else:
         champWinLoss[row["Champion"]][1] += 1
 
+
 # Track each champions win rate
 champWinRate = OrderedDict()
 for i in champs_picked:
@@ -69,7 +78,7 @@ champExpectedWins = OrderedDict()
 for i in champs_picked:
     champExpectedWins[i] = 0
 for index, row in picks.iterrows():
-    champExpectedWins[row["Champion"]] += (teamWinRate[row["Team"]]*(1-teamWinRate[row["TeamVS"]])) / ((teamWinRate[row["Team"]]*(1-teamWinRate[row["TeamVS"]]) + teamWinRate[row["TeamVS"]]*(1-teamWinRate[row["TeamVS"]]))+0.0000001)
+    champExpectedWins[row["Champion"]] += row["Expected"]
 champExpectedWins5Games = OrderedDict()
 for i in champWinRate5Games.keys():
     champExpectedWins5Games[i] = champExpectedWins[i]
@@ -96,36 +105,35 @@ for i in champWinRate5Games:
 
 champAdjustedWinRateList = []
 for i in expectedWinRateMinusActual:
-    champAdjustedWinRateList.append(expectedWinRateMinusActual[i]*100)
+    champAdjustedWinRateList.append(expectedWinRateMinusActual[i])
 
 CIpicked5 = OrderedDict()
 for i in champExpectedWins5Games.keys():
-    CIpicked5[i] = 2*math.sqrt((champWinLoss[i][0]/(sum(champWinLoss[i]))*champWinLoss[i][1]/(sum(champWinLoss[i])))
-                               / sum(champWinLoss[i]))
+    CIpicked5[i] = 2*math.sqrt(0.5 * 0.5 / sum(champWinLoss[i]))
 print(CIpicked5)
 CIpicked5List = []
 for i in CIpicked5.keys():
-    CIpicked5List.append(CIpicked5[i]*100)
+    CIpicked5List.append(CIpicked5[i])
 
 df = pd.DataFrame({"Win Rate - Expected Win Rate": champAdjustedWinRateList},
                   index=expectedWinRateMinusActual.keys())
-ax = df.plot.bar(yerr=CIpicked5List)
+ax = df.plot.bar()
 ax.set_title("Win Rate - Expected Win Rate")
 ax.get_legend().remove()
 x_offset = -0.3
-y_offset = 0.3
+y_offset = 0.005
 for p in ax.patches:
     b = p.get_bbox()
     val = "{:+.2f}".format(b.y1 + b.y0)
     if float(val) > 0:
         ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 + y_offset), fontsize=8)
     if float(val) < 0:
-        ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 - 6*y_offset), fontsize=8)
+        ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 - y_offset), fontsize=8)
 
 plt.show(block=True)
 
 champBans = OrderedDict()
-for i in champs_banned:
+for i in champs_total:
     champBans[i] = 0
 
 for index, row in bans.iterrows():
@@ -189,4 +197,17 @@ for p in ax.patches:
     if float(val) < 0:
         ax.annotate(val, ((b.x0 + b.x1)/2 + x_offset, b.y1 - 5*y_offset), fontsize=8)
 plt.show()
-print(sum(champAdjustedWinRateList)/len(expectedWinsMinusActual.keys()))
+
+blindPicks = OrderedDict()
+for champion in champs_picked:
+    blindPicks[champion] = 0
+for index, row in picks.iterrows():
+    if row["Blind?"] == "B":
+        blindPicks[row["Champion"]] += 1
+
+print(blindPicks)
+for champion in champWinRate5Games.keys():
+    print(champion,  "\t",  round(champWinRate5Games[champion], 5),  "\t",
+          round(champExpectedWinRate5Games[champion], 5), "\t",  champBans[champion], "\t",
+          round(blindPicks[champion]/sum(champWinLoss[champion]), 5))
+
